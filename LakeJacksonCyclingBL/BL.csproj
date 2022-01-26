@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LakeJacksonCyclingModel\LakeJacksonCyclingModel.csproj" />
+    <ProjectReference Include="..\LakeJacksonCyclingDL\DL.csproj" />
     
   </ItemGroup>
 
