@@ -18,6 +18,34 @@ namespace LJCUI
         }
         public string UserInput()
         {
+            string userSelection = Console.ReadLine();
+
+            switch (userSelection)
+            {
+                case "0":
+                    return "Exit";
+                    break;
+                case "1":
+                    return "StoreInfo";
+                    break;
+                case "2":
+                    return "ViewProducts";
+                    break;
+                case "5":
+                    return "AddCustomer";
+                    break;
+                case "6":
+                    return "AddCustomer";
+                    break;
+                case "7":
+                    return "AddOrders";
+                    break;               
+                default:
+                    Console.WriteLine("Please enter a valid option.");
+                    Console.WriteLine("Press Enter to continue");
+                    Console.ReadLine();
+                    break;
+            }
 
             return "MainMenu";
         }
