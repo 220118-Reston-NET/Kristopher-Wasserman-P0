@@ -15,6 +15,7 @@ namespace LJCUI
             Console.WriteLine("[6] - Add Products");
             Console.WriteLine("[7] - Place an Order");
             Console.WriteLine("[]===== Employee =====[]");
+            Console.WriteLine("[0] - Exit");
         }
         public string UserInput()
         {
