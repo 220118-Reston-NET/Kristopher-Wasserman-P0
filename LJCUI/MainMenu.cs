@@ -4,10 +4,7 @@ namespace LJCUI
     {
         public void Display()
         {
-            Console.WriteLine("Welcome to Lake Jackson Cycling");
-            Console.WriteLine("Can I get your name?");
-            string? name = Console.ReadLine();
-            Console.WriteLine("OK "+ name +", How may I help you?");
+            
             Console.WriteLine("[1] - View Store Information");
             Console.WriteLine("[2] - View Products");
             Console.WriteLine("[]===== Employee =====[]");

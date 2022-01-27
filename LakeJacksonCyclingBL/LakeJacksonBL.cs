@@ -15,14 +15,14 @@ namespace LakeJacksonCyclingBL
         }
         public Customers AddCustomer(Customers p_name)
         {
-            List<Customers>CustomerList = new List<Customers>();//_repo.GetCustomers();
-            if(CustomerList.Count != 0)
+            List<Customers> CustomerList = _repo.GetCustomers();
+            if(_repo.GetCustomers() != null)
             {
-               return _repo.AddCustomer(p_name);
+              return _repo.AddCustomer(p_name);
             }
             else
             {
-                throw new Exception("There is already a customer by this name");
+                throw new Exception("There are no customers ordering from us.");
             }
         }
 

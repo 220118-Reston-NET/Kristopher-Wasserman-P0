@@ -10,7 +10,7 @@ namespace LakeJacksonCyclingDL
             ///     Gets the current list of customers within the database.
             /// </summary>
             /// <returns></returns>
-           // List<Customers> GetCustomers();
+            List<Customers> GetCustomers();
     }
 }
 

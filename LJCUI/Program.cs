@@ -16,6 +16,19 @@ while(repeat)
     Console.Clear();
     menu.Display();
 
+    /*
+        The bottom four lines of code show the welcome and how may i help you responses/question when you enter the store or website
+    */
+
+    Console.WriteLine("Welcome to Lake Jackson Cycling");
+    Console.WriteLine("Can I get your name?");
+    string? name = Console.ReadLine(); 
+    Console.WriteLine("OK "+ name +", How may I help you?");
+    
+    /// <summary>
+    /// Asks for a answer then uses that to get the user to the correct menu to make some operation happen
+    /// </summary>
+    /// <returns></returns>
     string ans = menu.UserInput();
     switch (ans)
     {
@@ -33,7 +46,9 @@ while(repeat)
             repeat = false;
             break;
         default:
-        Log.Information("User did not make a vaild option");
+        Log.Warning("User did not make a vaild option");
+        Console.WriteLine("Please make a vaild options");
+        Console.WriteLine("Please press Enter to continue");
         break;
     }
 
