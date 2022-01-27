@@ -2,7 +2,7 @@ namespace LakeJacksonCyclingModel
 {
     public class Products
     {
-        private string _name;
+        private string? _name;
         public string Name
         {
             get { return _name;} 
@@ -36,7 +36,7 @@ namespace LakeJacksonCyclingModel
             }
         }
 
-        private string _desc;
+        private string? _desc;
         public string Descrpition 
         {
             get { return _desc;}

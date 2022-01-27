@@ -19,38 +19,38 @@ namespace LJCUI
         }
         public string UserInput()
         {
-            string userSelection = Console.ReadLine();
+            string? userSelection = Console.ReadLine();
 
             switch (userSelection)
             {
                 case "0":
                     Log.Information("User Exited the Add Customer ");
                     return "Exit";
-                    break;
+                    
                 case "1":
                     Log.Information("User is viewing the store information");
                     return "StoreInfo";
-                    break;
+                   
                 case "2":
                     Log.Information("User is viewing products");
                     return "ViewProducts";
-                    break;
+                   
                 case "5":
                     Log.Information("Empolyee accessed AddCustomer Functions");
                     return "AddCustomer";
-                    break;
+                    
                 case "6":
                     Log.Information("Employee added products to the inventory");
                     return "AddProducts";
-                    break;
+                    
                 case "7":
                     Log.Information("Employee placed an order!MONEY");
                     return "AddOrders";
-                    break;   
+                     
                 case "8":
                     Log.Information("Employee confirmed a Customer by searching them in the database");
                     return "SearchCustomer";
-                    break;            
+                              
                 default:
                     Log.Warning("A user made an incorrect option");
                     Console.WriteLine("Please enter a valid option.");
