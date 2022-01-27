@@ -7,3 +7,6 @@
 2022-01-27 09:21:06.155 -06:00 [WRN] Customer already added
 2022-01-27 09:21:31.758 -06:00 [INF] Displaying MainMenu to user
 2022-01-27 09:21:37.620 -06:00 [INF] User did not make a vaild option
+2022-01-27 12:09:58.286 -06:00 [INF] User is viewing main menu of store
+2022-01-27 12:10:15.400 -06:00 [INF] User Exited the Add Customer 
+2022-01-27 12:10:15.400 -06:00 [INF] Exiting Application

@@ -13,17 +13,20 @@ IMenu menu = new MainMenu();
 
 while(repeat)
 {
-    Console.Clear();
-    menu.Display();
-
+    Console.Clear(); 
     /*
         The bottom four lines of code show the welcome and how may i help you responses/question when you enter the store or website
     */
-
+    
+    Log.Information("System displayed main menu");
     Console.WriteLine("Welcome to Lake Jackson Cycling");
     Console.WriteLine("Can I get your name?");
     string? name = Console.ReadLine(); 
     Console.WriteLine("OK "+ name +", How may I help you?");
+    
+    menu.Display();
+
+   
     
     /// <summary>
     /// Asks for a answer then uses that to get the user to the correct menu to make some operation happen

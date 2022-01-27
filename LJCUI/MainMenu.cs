@@ -4,14 +4,17 @@ namespace LJCUI
     {
         public void Display()
         {
-            
-            Console.WriteLine("[1] - View Store Information");
-            Console.WriteLine("[2] - View Products");
-            Console.WriteLine("[]===== Employee =====[]");
-            Console.WriteLine("[5] - Add Customer Information");
-            Console.WriteLine("[6] - Add Products");
-            Console.WriteLine("[7] - Place an Order");
-            Console.WriteLine("[]===== Employee =====[]");
+            Log.Information("User is viewing main menu of store");
+            Console.WriteLine("+++++++ Lake Jackson Cycling +++++++");
+            Console.WriteLine("++ [1] - View Store Information   ++");
+            Console.WriteLine("++ [2] - View Products            ++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("*******       Employee       *******");
+            Console.WriteLine("** [5] - Add Customer Information **");
+            Console.WriteLine("** [6] - Add Products             **");
+            Console.WriteLine("** [7] - Place an Order           **");
+            Console.WriteLine("** [8] - Search for a customer    **");
+            Console.WriteLine("************************************");
             Console.WriteLine("[0] - Exit");
         }
         public string UserInput()
@@ -21,24 +24,35 @@ namespace LJCUI
             switch (userSelection)
             {
                 case "0":
+                    Log.Information("User Exited the Add Customer ");
                     return "Exit";
                     break;
                 case "1":
+                    Log.Information("User is viewing the store information");
                     return "StoreInfo";
                     break;
                 case "2":
+                    Log.Information("User is viewing products");
                     return "ViewProducts";
                     break;
                 case "5":
+                    Log.Information("Empolyee accessed AddCustomer Functions");
                     return "AddCustomer";
                     break;
                 case "6":
-                    return "AddCustomer";
+                    Log.Information("Employee added products to the inventory");
+                    return "AddProducts";
                     break;
                 case "7":
+                    Log.Information("Employee placed an order!MONEY");
                     return "AddOrders";
-                    break;               
+                    break;   
+                case "8":
+                    Log.Information("Employee confirmed a Customer by searching them in the database");
+                    return "SearchCustomer";
+                    break;            
                 default:
+                    Log.Warning("A user made an incorrect option");
                     Console.WriteLine("Please enter a valid option.");
                     Console.WriteLine("Press Enter to continue");
                     Console.ReadLine();
