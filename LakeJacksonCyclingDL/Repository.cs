@@ -5,7 +5,7 @@ namespace LakeJacksonCyclingDL
 {
     public class Repository : IRepository
     {
-        private string _filepath = "../LakeJacksonCyclingDL/Database";
+        private string _filepath = "../LakeJacksonCyclingDL/Database/";
         private string _jsonString;
 
         /// <summary>
@@ -28,7 +28,6 @@ namespace LakeJacksonCyclingDL
 
         /// <summary>
         ///  this is to get all the products to show them and make sure that there dulics
-        /// 
         /// </summary>
         /// <returns></returns>
         public List<ItemsLines> GetAllProducts()
@@ -40,8 +39,9 @@ namespace LakeJacksonCyclingDL
 
         public Customers AddCustomer(Customers p_name)
         {
+            
             string path = _filepath + "Customers.json";
-            List<Customers> CustomerList = new List<Customers>();
+            List<Customers> CustomerList = GetCustomers();
             CustomerList.Add(p_name);
 
             _jsonString = JsonSerializer.Serialize(CustomerList, new JsonSerializerOptions { WriteIndented = true});
