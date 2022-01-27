@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL", "LakeJacksonCyclingDL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJCUI", "LJCUI\LJCUI.csproj", "{7F9963B2-AEB7-4B1F-A5BD-39F1A527BBBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LakeJacksonTest", "LakeJacksonTest\LakeJacksonTest.csproj", "{5536045C-2313-4926-ACCA-0EFB73513E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,5 +42,9 @@ Global
 		{7F9963B2-AEB7-4B1F-A5BD-39F1A527BBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F9963B2-AEB7-4B1F-A5BD-39F1A527BBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F9963B2-AEB7-4B1F-A5BD-39F1A527BBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5536045C-2313-4926-ACCA-0EFB73513E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5536045C-2313-4926-ACCA-0EFB73513E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5536045C-2313-4926-ACCA-0EFB73513E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5536045C-2313-4926-ACCA-0EFB73513E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

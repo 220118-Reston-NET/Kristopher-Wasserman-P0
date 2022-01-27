@@ -36,42 +36,49 @@ namespace LJCUI
 
         public string UserInput()
         {
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
             switch (input)
             {
                 case "1":
+                    Log.Information("Employee updated customer name");
                     Console.WriteLine("Please enter customers Name. ");
                     _cInfo.Name = Console.ReadLine();
                     break;
                 case "2":
+                    Log.Information("Employee updated customer address");
                     Console.WriteLine("Please enter thier address.");
                     _cInfo.Address = Console.ReadLine();
                     break;
                 case "3":
+                    Log.Information("Employee updated customer city");
                     Console.WriteLine("Please enter the City.");
                     _cInfo.City = Console.ReadLine();
                     break;
                 case "4":
+                    Log.Information("Employee updated customer State");
                     Console.WriteLine("Please enter the State.");
                     _cInfo.State = Console.ReadLine();
                     break;
                 case "5":
+                    Log.Information("Employee updated customer's Zip code");
                     Console.WriteLine("Please enter the Zip(numbers only please)");
                     _cInfo.Zip = Convert.ToInt32(Console.ReadLine());
                     break;
                 case "6":
+                    Log.Information("Employee updated customer's phone number");
                     Console.WriteLine("Please enter a phone number!(numbers only please)");
                     _cInfo.PhoneNumber = Convert.ToInt64(Console.ReadLine());
                     break;
                 case "7":
+                    Log.Information("Employee updated customer's email");
                     Console.WriteLine("Please enter a email.");
                     _cInfo.Email = Console.ReadLine();
                     break;
                 case "9":
                     try
                     {
-                        Log.Information("CustomerAdded!");
+                        Log.Information("Employee - CustomerAdded!");
                         Console.WriteLine("CustomerAdded");
                         _LakeJacksonCycleBL.AddCustomer(_cInfo);
                         Console.ReadLine();
@@ -84,16 +91,14 @@ namespace LJCUI
                         Console.ReadLine();
                     }
                     return "AddCustomer";
-                    break;
                 case "0":
                     return "MainMenu";
-                    break;
                 default:
+                    Log.Warning("Employee made a error.");
                     Console.WriteLine("Ivalid Option. Please try again");
                     Console.WriteLine("Please press Enter to continue.");
                     Console.ReadLine();
                     return "AddCustomer";
-                    break;
             }
             return "AddCustomer";
         }
