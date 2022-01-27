@@ -1,0 +1,9 @@
+2022-01-27 09:19:44.421 -06:00 [INF] Displaying add customer to user
+2022-01-27 09:19:52.128 -06:00 [WRN] Customer already added
+2022-01-27 09:20:36.769 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 09:20:42.143 -06:00 [INF] User did not make a vaild option
+2022-01-27 09:20:56.971 -06:00 [INF] Displaying add customer to user
+2022-01-27 09:21:03.835 -06:00 [INF] Displaying add customer to user
+2022-01-27 09:21:06.155 -06:00 [WRN] Customer already added
+2022-01-27 09:21:31.758 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 09:21:37.620 -06:00 [INF] User did not make a vaild option

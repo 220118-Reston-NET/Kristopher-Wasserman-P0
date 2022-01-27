@@ -12,10 +12,10 @@ namespace LJCUI
     {
         private static Customers _cInfo = new Customers();
 
-        private ILakeJacksonBL _ljcBL;
+        private ILakeJacksonBL _LakeJacksonCycleBL;
         public AddCustomer(ILakeJacksonBL p_name)
         {
-           _ljcBL = p_name;
+           _LakeJacksonCycleBL = p_name;
         }
 
         // private ILakeJackson;
@@ -46,7 +46,7 @@ namespace LJCUI
                 case "2":
                     try
                     {
-                        _ljcBL.AddCustomer(_cInfo);
+                        _LakeJacksonCycleBL.AddCustomer(_cInfo);
                     }
                     catch (System.Exception exc)
                     {
@@ -56,6 +56,7 @@ namespace LJCUI
                         Console.ReadLine();
                     }
                     return "MainMenu";
+                    break;
                 default:
                     Console.WriteLine("Ivalid Option. Please try again");
                     Console.WriteLine("Please press Enter to continue.");
