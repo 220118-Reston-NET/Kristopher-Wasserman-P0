@@ -21,22 +21,22 @@ namespace LJCUI
         // private ILakeJackson;
         public void Display()
         {
-            Console.WriteLine("[]===== Employee =====[]");
-            Console.WriteLine("[1] - Name: " + _cInfo.Name);
-            Console.WriteLine("[2] - Address: "+_cInfo.Address);
-            Console.WriteLine("[3] - City: " + _cInfo.City);
-            Console.WriteLine("[4] - State: " + _cInfo.State);
-            Console.WriteLine("[5] - Zip: " + _cInfo.Zip);
-            Console.WriteLine("[6] - Phone: " + _cInfo.PhoneNumber);
-            Console.WriteLine("[7] - Email: " + _cInfo.Email);
-            Console.WriteLine("[9] - Save");
-            Console.WriteLine("[]===== Employee =====[]");
+            Console.WriteLine("********         Employee             *******");
+            Console.WriteLine("** [1] - Name: " + _cInfo.Name + "         **");
+            Console.WriteLine("** [2] - Address: "+_cInfo.Address + "     **");
+            Console.WriteLine("** [3] - City: " + _cInfo.City + "         **");
+            Console.WriteLine("** [4] - State: " + _cInfo.State + "       **");
+            Console.WriteLine("** [5] - Zip: " + _cInfo.Zip + "           **");
+            Console.WriteLine("** [6] - Phone: " + _cInfo.PhoneNumber + " **");
+            Console.WriteLine("** [7] - Email: " + _cInfo.Email + "       **");
+            Console.WriteLine("** [9] - Save                              **");
+            Console.WriteLine("*********************************************");
             Console.WriteLine("[0] - Go Back");
         }
 
         public string UserInput()
         {
-            string? input = Console.ReadLine();
+            string input = Console.ReadLine();
 
             switch (input)
             {
@@ -94,9 +94,9 @@ namespace LJCUI
                 case "0":
                     return "MainMenu";
                 default:
-                    Log.Warning("Employee made a error.");
-                    Console.WriteLine("Ivalid Option. Please try again");
-                    Console.WriteLine("Please press Enter to continue.");
+                    Log.Warning("A user made an incorrect option");
+                    Console.WriteLine("Please enter a valid option.");
+                    Console.WriteLine("Press Enter to continue");
                     Console.ReadLine();
                     return "AddCustomer";
             }

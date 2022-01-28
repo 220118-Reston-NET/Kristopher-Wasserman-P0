@@ -1,3 +1,30 @@
 [
-  
+  {
+    "Name": "Joe Smith",
+    "Address": "1234 Some st",
+    "City": "Lake Jackson",
+    "State": "Texas",
+    "Zip": 77566,
+    "Email": "someone@thisplace.com",
+    "PhoneNumber": 12345678910,
+    "Ordered": [
+      {
+        "LineItems": null
+      }
+    ]
+  },
+  {
+    "Name": "Kristopher Wasserman",
+    "Address": "202 Arrowhead Dr",
+    "City": "Lake Jackson",
+    "State": "Texas",
+    "Zip": 77566,
+    "Email": "kristopherwasserman6@msn.com",
+    "PhoneNumber": 18083989431,
+    "Ordered": [
+      {
+        "LineItems": null
+      }
+    ]
+  }
 ]

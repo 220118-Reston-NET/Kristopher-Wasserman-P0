@@ -10,20 +10,20 @@ Log.Logger = new LoggerConfiguration().WriteTo.File("./logs/user.txt").CreateLog
 bool repeat = true;
 IMenu menu = new MainMenu();
 
-
-while(repeat)
-{
-    Console.Clear(); 
-    /*
-        The bottom four lines of code show the welcome and how may i help you responses/question when you enter the store or website
-    */
-    
+  
     Log.Information("System displayed main menu");
     Console.WriteLine("Welcome to Lake Jackson Cycling");
     Console.WriteLine("Can I get your name?");
     string? name = Console.ReadLine(); 
     Console.WriteLine("OK "+ name +", How may I help you?");
     
+while(repeat)
+{
+    Console.Clear(); 
+    /*
+        The bottom four lines of code show the welcome and how may i help you responses/question when you enter the store or website
+    */
+  
     menu.Display();
 
    
@@ -43,16 +43,23 @@ while(repeat)
             Log.Information("Displaying MainMenu to user");
             menu = new MainMenu();
             break;
+        case "SearchCustomer":
+            Log.Information("Employee accessed search function");
+            menu = new SearchCustomer(new LakeJacksonBL(new Repository()));;
+            break;
+
         case "Exit":
             Log.Information("Exiting Application");
             Log.CloseAndFlush();
             repeat = false;
             break;
         default:
-        Log.Warning("User did not make a vaild option");
-        Console.WriteLine("Please make a vaild options");
-        Console.WriteLine("Please press Enter to continue");
-        break;
+            Log.Warning("A user made an incorrect option");
+            Console.WriteLine("Please enter a valid option.");
+            Console.WriteLine("Press Enter to continue");
+            Console.ReadLine();
+            Console.ReadLine();
+            break;
     }
 
 }

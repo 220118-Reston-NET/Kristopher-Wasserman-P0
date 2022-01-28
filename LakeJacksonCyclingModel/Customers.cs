@@ -35,5 +35,10 @@
                 new Orders()
             };
         }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

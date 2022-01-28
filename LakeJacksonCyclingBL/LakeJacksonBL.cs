@@ -30,5 +30,12 @@ namespace LakeJacksonCyclingBL
         {
             throw new NotImplementedException();
         }
+
+        public List<Customers> SearchCustomer(string p_name)
+        {
+            List<Customers> CustomerList = _repo.GetCustomers();
+
+            return CustomerList.Where(cList => cList.Name.Contains(p_name)).ToList();
+        }
     }
 }

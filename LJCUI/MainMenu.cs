@@ -19,7 +19,7 @@ namespace LJCUI
         }
         public string UserInput()
         {
-            string? userSelection = Console.ReadLine();
+            string userSelection = Console.ReadLine();
 
             switch (userSelection)
             {
