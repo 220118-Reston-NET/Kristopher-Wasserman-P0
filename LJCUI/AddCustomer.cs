@@ -18,9 +18,12 @@ namespace LJCUI
            _LakeJacksonCycleBL = p_name;
         }
 
-        // private ILakeJackson;
+        /// <summary>
+        /// Displays the Menu need to add a customer to our database
+        /// </summary>
         public void Display()
         {
+            Log.Information("System displayed Add Customer To user!");
             Console.WriteLine("********         Employee             *******");
             Console.WriteLine("** [1] - Name: " + _cInfo.Name + "         **");
             Console.WriteLine("** [2] - Address: "+_cInfo.Address + "     **");
