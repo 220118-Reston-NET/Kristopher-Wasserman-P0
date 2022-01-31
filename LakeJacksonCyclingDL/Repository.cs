@@ -13,27 +13,26 @@ namespace LakeJacksonCyclingDL
         /// </summary>
         /// <param name="p_item"></param>
         /// <returns></returns>
-        public ItemsLines AddProduct(ItemsLines p_item)
+        public ItemsLines AddProduct(ItemsLines p_name)
         {
             string path = _filepath + "Inventory.json";
-            List<ItemsLines> listOfItems = new List<ItemsLines>();
-            listOfItems.Add(p_item);
+            List<ItemsLines> listOfItems = GetProducts();
+            listOfItems.Add(p_name);
 
             _jsonString = JsonSerializer.Serialize(listOfItems, new JsonSerializerOptions {WriteIndented = true});
 
             File.WriteAllText(path, _jsonString);
 
-            return p_item ;
+            return p_name ;
         }
 
         /// <summary>
         ///  this is to get all the products to show them and make sure that there dulics
         /// </summary>
         /// <returns></returns>
-        public List<ItemsLines> GetAllProducts()
+        public List<ItemsLines> GetProducts()
         {
-            _jsonString = File.ReadAllText(_jsonString + "Inventory.json");
-
+            _jsonString = File.ReadAllText(_filepath + "Inventory.json");
             return JsonSerializer.Deserialize<List<ItemsLines>>(_jsonString);
         }
 
@@ -55,5 +54,6 @@ namespace LakeJacksonCyclingDL
             _jsonString = File.ReadAllText(_filepath + "Customers.json");
             return JsonSerializer.Deserialize<List<Customers>>(_jsonString);
         }
+        
     }
 }

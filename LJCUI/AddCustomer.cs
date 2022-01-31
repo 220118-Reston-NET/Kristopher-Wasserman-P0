@@ -95,6 +95,7 @@ namespace LJCUI
                     }
                     return "AddCustomer";
                 case "0":
+                    Log.Information("User went back to the main menu.");
                     return "MainMenu";
                 default:
                     Log.Warning("A user made an incorrect option");

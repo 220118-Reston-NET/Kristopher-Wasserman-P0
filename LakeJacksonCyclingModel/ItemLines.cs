@@ -20,6 +20,41 @@ namespace LakeJacksonCyclingModel
             }
             
         }
+
+        private string _iDescription;
+        public string Description
+        {
+            get { return _iDescription;}
+            set
+            {
+                if(value != "")
+                {
+                    _iDescription = value;
+                }
+                else
+                {
+                    throw new Exception("Product must have a description.");
+                }
+            }
+        }
+        private double _itemPrice;
+        public double Price
+        {
+            get {return _itemPrice ;}
+            set
+            {
+                if(value != 0.00)
+                {
+                    _itemPrice = value;
+                }
+                else
+                {
+                    
+                    throw new Exception("Please enter a valid price. Above 0.00");
+                }
+            }
+        }
+
         private int _quantity;
         public int Quantity
         {
@@ -40,10 +75,9 @@ namespace LakeJacksonCyclingModel
         public ItemsLines()
         {
             ItemName = "Bib Shorts";
+            Description = "Bike shorts that will last for a 12 hr ride in the saddle";
+            Price = 150.20;
             Quantity = 100;
-
-            ItemName = "Shorts";
-            Quantity = 10;
         }
         
         

@@ -41,12 +41,12 @@ namespace LJCUI
                     
                 case "6":
                     Log.Information("Employee added products to the inventory");
-                    return "AddProducts";
+                    return "AddProduct";
                     
                 case "7":
                     Log.Information("Employee placed an order!MONEY");
                     return "AddOrders";
-                     
+                    
                 case "8":
                     Log.Information("Employee confirmed a Customer by searching them in the database");
                     return "SearchCustomer";

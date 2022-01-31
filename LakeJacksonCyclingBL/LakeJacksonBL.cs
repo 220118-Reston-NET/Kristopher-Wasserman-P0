@@ -31,11 +31,18 @@ namespace LakeJacksonCyclingBL
             throw new NotImplementedException();
         }
 
+        public ItemsLines AddProduct(ItemsLines p_name)
+        {
+            return _repo.AddProduct(p_name);
+        }
+
         public List<Customers> SearchCustomer(string p_name)
         {
             List<Customers> CustomerList = _repo.GetCustomers();
 
             return CustomerList.Where(cList => cList.Name.Contains(p_name)).ToList();
         }
+
+        
     }
 }

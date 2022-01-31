@@ -43,6 +43,10 @@ while(repeat)
             Log.Information("Displaying MainMenu to user");
             menu = new MainMenu();
             break;
+        case "AddProduct":
+            Log.Information("Displaying Add Product menu to user");
+            menu = new AddProduct(new LakeJacksonBL(new Repository()));
+            break;
         case "SearchCustomer":
             Log.Information("Employee accessed search function");
             menu = new SearchCustomer(new LakeJacksonBL(new Repository()));;
