@@ -14,7 +14,7 @@ IMenu menu = new MainMenu();
     Log.Information("System displayed main menu");
     Console.WriteLine("Welcome to Lake Jackson Cycling");
     Console.WriteLine("Can I get your name?");
-    string? name = Console.ReadLine(); 
+    string name = Console.ReadLine(); 
     Console.WriteLine("OK "+ name +", How may I help you?");
     
 while(repeat)

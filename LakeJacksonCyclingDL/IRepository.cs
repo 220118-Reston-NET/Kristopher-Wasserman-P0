@@ -11,6 +11,7 @@ namespace LakeJacksonCyclingDL
             /// </summary>
             /// <returns></returns>
             List<Customers> GetCustomers();
+            List<ItemsLines> GetProducts();
     }
 }
 

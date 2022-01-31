@@ -3,6 +3,7 @@
       <ProjectReference Include="..\LakeJacksonCyclingBL\BL.csproj" />
       <ProjectReference Include="..\LakeJacksonCyclingDL\DL.csproj" />
       <ProjectReference Include="..\LakeJacksonCyclingModel\LakeJacksonCyclingModel.csproj" />
+      <ProjectReference Include="..\StoreFront\StoreFront.csproj" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Serilog" Version="2.11.0-dev-01380" />
@@ -13,7 +14,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
