@@ -1,207 +1,289 @@
-2022-01-27 09:19:44.421 -06:00 [INF] Displaying add customer to user
-2022-01-27 09:19:52.128 -06:00 [WRN] Customer already added
-2022-01-27 09:20:36.769 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 09:20:42.143 -06:00 [INF] User did not make a vaild option
-2022-01-27 09:20:56.971 -06:00 [INF] Displaying add customer to user
-2022-01-27 09:21:03.835 -06:00 [INF] Displaying add customer to user
-2022-01-27 09:21:06.155 -06:00 [WRN] Customer already added
-2022-01-27 09:21:31.758 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 09:21:37.620 -06:00 [INF] User did not make a vaild option
-2022-01-27 12:09:58.286 -06:00 [INF] User is viewing main menu of store
-2022-01-27 12:10:15.400 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 12:10:15.400 -06:00 [INF] Exiting Application
-2022-01-27 14:49:50.153 -06:00 [INF] System displayed main menu
-2022-01-27 14:49:54.067 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:50:02.444 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 14:50:02.444 -06:00 [WRN] User did not make a vaild option
-2022-01-27 14:50:02.444 -06:00 [INF] System displayed main menu
-2022-01-27 14:50:06.444 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:50:32.055 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 14:50:32.056 -06:00 [WRN] User did not make a vaild option
-2022-01-27 14:50:32.056 -06:00 [INF] System displayed main menu
-2022-01-27 14:51:28.680 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:51:30.129 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 14:51:30.129 -06:00 [WRN] User did not make a vaild option
-2022-01-27 14:51:30.129 -06:00 [INF] System displayed main menu
-2022-01-27 14:52:23.092 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:52:26.487 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 14:52:26.487 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:52:26.487 -06:00 [INF] System displayed main menu
-2022-01-27 14:52:43.089 -06:00 [INF] Employee updated customer's Zip code
-2022-01-27 14:52:54.855 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:52:54.855 -06:00 [INF] System displayed main menu
-2022-01-27 14:53:35.243 -06:00 [INF] Employee updated customer name
-2022-01-27 14:53:37.093 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:53:37.094 -06:00 [INF] System displayed main menu
-2022-01-27 14:54:08.877 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 14:54:08.877 -06:00 [INF] System displayed main menu
-2022-01-27 14:54:10.015 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:54:13.528 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 14:54:13.529 -06:00 [WRN] User did not make a vaild option
-2022-01-27 14:54:13.529 -06:00 [INF] System displayed main menu
-2022-01-27 14:54:14.723 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:54:17.192 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 14:54:17.192 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:54:17.193 -06:00 [INF] System displayed main menu
-2022-01-27 14:55:23.106 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 14:55:23.107 -06:00 [INF] System displayed main menu
-2022-01-27 14:55:24.414 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:55:25.088 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 14:55:25.088 -06:00 [INF] Exiting Application
-2022-01-27 14:55:31.061 -06:00 [INF] System displayed main menu
-2022-01-27 14:55:32.569 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:55:36.150 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 14:55:36.150 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:55:36.151 -06:00 [INF] System displayed main menu
-2022-01-27 14:56:44.822 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 14:56:44.822 -06:00 [INF] System displayed main menu
-2022-01-27 14:56:45.865 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:56:48.778 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 14:56:48.778 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:56:48.778 -06:00 [INF] System displayed main menu
-2022-01-27 14:56:57.047 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 14:56:57.047 -06:00 [INF] System displayed main menu
-2022-01-27 14:56:57.614 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:57:02.827 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 14:57:02.828 -06:00 [WRN] User did not make a vaild option
-2022-01-27 14:57:02.828 -06:00 [INF] System displayed main menu
-2022-01-27 14:57:03.799 -06:00 [INF] User is viewing main menu of store
-2022-01-27 14:57:35.340 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 14:57:35.340 -06:00 [INF] Displaying add customer to user
-2022-01-27 14:57:35.340 -06:00 [INF] System displayed main menu
-2022-01-27 14:58:02.733 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 14:58:02.734 -06:00 [INF] System displayed main menu
-2022-01-27 14:58:03.427 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:00:49.249 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:00:49.250 -06:00 [INF] Exiting Application
-2022-01-27 15:01:01.620 -06:00 [INF] System displayed main menu
-2022-01-27 15:04:05.804 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:04:15.714 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:04:15.714 -06:00 [INF] Employee accessed search function
-2022-01-27 15:04:15.714 -06:00 [INF] System displayed main menu
-2022-01-27 15:04:17.044 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:04:32.970 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 15:04:32.970 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:04:32.971 -06:00 [INF] System displayed main menu
-2022-01-27 15:07:09.285 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:07:09.285 -06:00 [INF] System displayed main menu
-2022-01-27 15:07:10.551 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:07:11.812 -06:00 [WRN] A user made an incorrect option
-2022-01-27 15:07:13.229 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:07:13.229 -06:00 [INF] System displayed main menu
-2022-01-27 15:07:13.735 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:07:15.422 -06:00 [WRN] A user made an incorrect option
-2022-01-27 15:07:15.646 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:07:15.647 -06:00 [INF] System displayed main menu
-2022-01-27 15:07:41.699 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:07:44.084 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 15:07:44.084 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:07:44.084 -06:00 [INF] System displayed main menu
-2022-01-27 15:07:46.169 -06:00 [INF] Employee updated customer's Zip code
-2022-01-27 15:07:49.904 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:07:49.905 -06:00 [INF] System displayed main menu
-2022-01-27 15:13:02.372 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:13:02.372 -06:00 [INF] System displayed main menu
-2022-01-27 15:13:03.396 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:13:04.364 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:13:04.364 -06:00 [INF] Exiting Application
-2022-01-27 15:13:11.865 -06:00 [INF] System displayed main menu
-2022-01-27 15:13:21.789 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:13:37.780 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:13:37.780 -06:00 [INF] Employee accessed search function
-2022-01-27 15:13:37.780 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:13:44.206 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 15:13:44.206 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:14:10.272 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:14:10.272 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:14:12.037 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:14:12.038 -06:00 [INF] Employee accessed search function
-2022-01-27 15:14:12.038 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:14:34.455 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:14:34.455 -06:00 [INF] Employee accessed search function
-2022-01-27 15:14:34.455 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:15:48.280 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:15:48.281 -06:00 [INF] Exiting Application
-2022-01-27 15:15:55.634 -06:00 [INF] System displayed main menu
-2022-01-27 15:15:58.197 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:16:05.225 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:16:05.225 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:40.866 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:42.487 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:43.541 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:44.182 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:44.578 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:44.844 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:45.030 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:46.217 -06:00 [INF] Employee accessed search function
-2022-01-27 15:16:46.676 -06:00 [INF] Employee accessed search function
-2022-01-27 15:18:43.312 -06:00 [INF] Employee accessed search function
-2022-01-27 15:18:45.553 -06:00 [INF] Employee accessed search function
-2022-01-27 15:19:01.844 -06:00 [INF] System displayed main menu
-2022-01-27 15:19:17.060 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:19:19.059 -06:00 [INF] Empolyee accessed AddCustomer Functions
-2022-01-27 15:19:19.059 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:19:23.612 -06:00 [INF] Employee - CustomerAdded!
-2022-01-27 15:19:26.699 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:19:30.370 -06:00 [INF] Employee updated customer name
-2022-01-27 15:19:35.097 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:19:37.308 -06:00 [INF] Employee updated customer address
-2022-01-27 15:19:48.560 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:19:58.254 -06:00 [INF] Employee updated customer's Zip code
-2022-01-27 15:20:03.364 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:20:07.770 -06:00 [INF] Employee updated customer's phone number
-2022-01-27 15:20:17.219 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:20:21.979 -06:00 [INF] Employee updated customer's email
-2022-01-27 15:20:28.467 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:20:37.999 -06:00 [INF] Employee - CustomerAdded!
-2022-01-27 15:20:43.330 -06:00 [INF] Displaying add customer to user
-2022-01-27 15:20:44.758 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:20:44.758 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:20:50.655 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:20:50.655 -06:00 [INF] Employee accessed search function
-2022-01-27 15:25:51.111 -06:00 [INF] Employee accessed search function
-2022-01-27 15:43:38.969 -06:00 [INF] Employee accessed search function
-2022-01-27 15:43:47.279 -06:00 [INF] Employee accessed search function
-2022-01-27 15:43:47.959 -06:00 [INF] Employee accessed search function
-2022-01-27 15:43:50.561 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:43:50.561 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:43:51.989 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:43:51.989 -06:00 [INF] Exiting Application
-2022-01-27 15:44:00.700 -06:00 [INF] System displayed main menu
-2022-01-27 15:44:05.873 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:44:09.279 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:44:09.279 -06:00 [INF] Employee accessed search function
-2022-01-27 15:44:10.589 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:44:33.774 -06:00 [INF] Employee accessed search function
-2022-01-27 15:44:34.198 -06:00 [INF] Employee accessed search function
-2022-01-27 15:44:35.248 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:44:54.699 -06:00 [INF] Employee accessed search function
-2022-01-27 15:44:55.280 -06:00 [INF] Employee accessed search function
-2022-01-27 15:44:56.914 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:46:06.953 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:07.932 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:09.272 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:46:09.272 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:46:10.626 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:46:10.626 -06:00 [INF] Exiting Application
-2022-01-27 15:46:17.979 -06:00 [INF] System displayed main menu
-2022-01-27 15:46:19.496 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:46:20.768 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:46:20.768 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:22.050 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:46:36.878 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:37.606 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:39.705 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:46:39.706 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:46:40.589 -06:00 [INF] User Exited the Add Customer 
-2022-01-27 15:46:40.589 -06:00 [INF] Exiting Application
-2022-01-27 15:46:45.324 -06:00 [INF] System displayed main menu
-2022-01-27 15:46:48.703 -06:00 [INF] User is viewing main menu of store
-2022-01-27 15:46:51.119 -06:00 [INF] Employee confirmed a Customer by searching them in the database
-2022-01-27 15:46:51.119 -06:00 [INF] Employee accessed search function
-2022-01-27 15:46:52.776 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:47:05.555 -06:00 [INF] Employee accessed search function
-2022-01-27 15:47:07.039 -06:00 [INF] User used the system to look up customer information
-2022-01-27 15:47:15.009 -06:00 [INF] Employee accessed search function
-2022-01-27 15:47:18.065 -06:00 [INF] Displaying MainMenu to user
-2022-01-27 15:47:18.066 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:34.607 -06:00 [INF] System displayed main menu
+2022-01-31 12:59:37.266 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:40.488 -06:00 [WRN] A user made an incorrect option
+2022-01-31 12:59:43.092 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 12:59:43.093 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:49.329 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:49.329 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:49.330 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:50.736 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:50.736 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:50.737 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:51.202 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:51.202 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:51.202 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:51.543 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:51.543 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:51.543 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:51.817 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:51.817 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:51.818 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:52.097 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:52.097 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:52.098 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:52.344 -06:00 [INF] Employee added products to the inventory
+2022-01-31 12:59:52.345 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 12:59:52.345 -06:00 [INF] User is viewing main menu of store
+2022-01-31 12:59:52.779 -06:00 [WRN] A user made an incorrect option
+2022-01-31 12:59:55.106 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 12:59:55.107 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:00:37.314 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:00:37.314 -06:00 [INF] Exiting Application
+2022-01-31 13:00:46.628 -06:00 [INF] System displayed main menu
+2022-01-31 13:00:49.319 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:00:51.038 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:00:51.038 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:00:51.038 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:00:53.729 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:00:53.729 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:00:53.730 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:00:54.744 -06:00 [INF] User is viewing products
+2022-01-31 13:00:54.744 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:00:57.562 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:00:58.532 -06:00 [INF] User is viewing products
+2022-01-31 13:00:58.532 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:01:02.660 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:01:03.497 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-01-31 13:01:03.497 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:03.498 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:05.626 -06:00 [INF] Employee updated customer name
+2022-01-31 13:01:08.020 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:08.021 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:10.702 -06:00 [INF] Employee updated customer name
+2022-01-31 13:01:17.114 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:17.114 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:27.150 -06:00 [INF] Employee updated customer address
+2022-01-31 13:01:33.649 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:33.649 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:35.627 -06:00 [INF] Employee updated customer's phone number
+2022-01-31 13:01:42.835 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:42.835 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:44.697 -06:00 [INF] Employee updated customer's email
+2022-01-31 13:01:54.234 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:01:54.234 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:01:59.558 -06:00 [INF] Employee - CustomerAdded!
+2022-01-31 13:02:03.461 -06:00 [INF] Displaying add customer to user
+2022-01-31 13:02:03.462 -06:00 [INF] System displayed Add Customer To user!
+2022-01-31 13:02:04.264 -06:00 [INF] User went back to the main menu.
+2022-01-31 13:02:04.264 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:02:04.265 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:02:10.726 -06:00 [INF] Employee confirmed a Customer by searching them in the database
+2022-01-31 13:02:10.726 -06:00 [INF] Employee accessed search function
+2022-01-31 13:02:10.727 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-01-31 13:02:12.211 -06:00 [INF] User used the system to look up customer information
+2022-01-31 13:02:43.156 -06:00 [INF] Employee accessed search function
+2022-01-31 13:02:43.157 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-01-31 13:02:44.727 -06:00 [INF] User used the system to look up customer information
+2022-01-31 13:03:04.811 -06:00 [INF] Employee accessed search function
+2022-01-31 13:03:04.811 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-01-31 13:03:06.034 -06:00 [INF] User returned to the Main Menu
+2022-01-31 13:03:06.034 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:03:06.034 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:09.048 -06:00 [INF] Employee confirmed a Customer by searching them in the database
+2022-01-31 13:03:09.048 -06:00 [INF] Employee accessed search function
+2022-01-31 13:03:09.049 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-01-31 13:03:10.083 -06:00 [INF] User returned to the Main Menu
+2022-01-31 13:03:10.083 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:03:10.084 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:11.158 -06:00 [INF] User is viewing the store information
+2022-01-31 13:03:11.158 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:03:20.452 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:21.623 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:21.623 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:21.623 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:22.548 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:22.549 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:22.549 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:23.045 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:23.045 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:23.045 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:23.493 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:23.493 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:23.493 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:23.921 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:23.921 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:23.921 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:24.380 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:24.380 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:24.381 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:24.829 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:24.829 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:24.830 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:03:25.372 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:03:25.373 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:03:25.373 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:04:57.646 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:04:57.646 -06:00 [INF] Exiting Application
+2022-01-31 13:05:04.307 -06:00 [INF] System displayed main menu
+2022-01-31 13:05:06.168 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:07.205 -06:00 [INF] User is viewing the store information
+2022-01-31 13:05:07.205 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:05:13.331 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:13.873 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:13.873 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:13.873 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:14.328 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:05:15.467 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:05:15.467 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:15.913 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:05:16.604 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:05:16.605 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:17.364 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:17.364 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:17.365 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:18.149 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:18.150 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:18.150 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:18.547 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:18.547 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:18.548 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:18.900 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:18.900 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:18.900 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:19.275 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:19.275 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:19.275 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:19.681 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:19.681 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:19.682 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:20.076 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:20.076 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:20.076 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:20.446 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:20.446 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:20.446 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:20.850 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:20.850 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:20.850 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:21.254 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:21.255 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:21.255 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:21.664 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:21.664 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:21.664 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:22.057 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:22.057 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:22.057 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:22.444 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:22.444 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:22.444 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:05:23.076 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:05:23.076 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:05:23.076 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:06:24.398 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:06:24.398 -06:00 [INF] Exiting Application
+2022-01-31 13:06:29.393 -06:00 [INF] System displayed main menu
+2022-01-31 13:06:31.176 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:06:32.374 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:06:32.374 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:06:32.375 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:06:44.753 -06:00 [INF] Product has been added
+2022-01-31 13:06:44.780 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:06:44.781 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:07:06.219 -06:00 [INF] User added a new name of a new product
+2022-01-31 13:07:17.979 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:07:17.980 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:07:21.733 -06:00 [INF] User has added a price to a product
+2022-01-31 13:07:28.249 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:07:28.249 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:07:34.652 -06:00 [INF] User has added a price to a product
+2022-01-31 13:07:39.371 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:07:39.371 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:07:44.400 -06:00 [INF] User has added a description to a product
+2022-01-31 13:08:30.927 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:08:30.928 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:08:35.559 -06:00 [INF] User add a quantity of a product
+2022-01-31 13:08:36.900 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:08:36.900 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:08:38.638 -06:00 [INF] Product has been added
+2022-01-31 13:08:38.639 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:08:38.640 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:09:01.573 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:09:01.602 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:09:01.602 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:09:01.617 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:09:05.864 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:09:05.864 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:09:07.660 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:09:07.660 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:09:09.794 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:09:09.794 -06:00 [INF] Exiting Application
+2022-01-31 13:15:54.105 -06:00 [INF] System displayed main menu
+2022-01-31 13:15:57.423 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:16:03.810 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:16:03.811 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:16:03.812 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:16:16.601 -06:00 [INF] Product has been added
+2022-01-31 13:16:16.613 -06:00 [WRN] Customer already added
+2022-01-31 13:18:13.825 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:18:13.826 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:18:16.018 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:18:16.018 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:18:17.872 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:18:17.872 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:18:17.873 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:18:20.975 -06:00 [INF] Product has been added
+2022-01-31 13:18:20.975 -06:00 [WRN] Customer already added
+2022-01-31 13:20:26.391 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:20:26.391 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:20:26.894 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:20:26.895 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:20:28.005 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:20:28.005 -06:00 [INF] Exiting Application
+2022-01-31 13:20:34.860 -06:00 [INF] System displayed main menu
+2022-01-31 13:20:37.290 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:20:39.826 -06:00 [INF] User is viewing the store information
+2022-01-31 13:20:39.826 -06:00 [WRN] A user made an incorrect option
+2022-01-31 13:20:43.488 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:20:44.969 -06:00 [INF] Employee added products to the inventory
+2022-01-31 13:20:44.969 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:20:44.970 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:20:47.694 -06:00 [INF] Product has been added
+2022-01-31 13:20:47.726 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:20:47.726 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:20:51.584 -06:00 [INF] Product has been added
+2022-01-31 13:20:51.585 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:20:51.586 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:25:28.607 -06:00 [INF] User added a new name of a new product
+2022-01-31 13:25:33.608 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:25:33.609 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:25:36.557 -06:00 [INF] User added a new name of a new product
+2022-01-31 13:25:46.917 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:25:46.917 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:25:50.536 -06:00 [INF] User has added a price to a product
+2022-01-31 13:25:52.873 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:25:52.874 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:25:57.944 -06:00 [INF] User has added a description to a product
+2022-01-31 13:26:33.602 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:26:33.602 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:26:38.370 -06:00 [INF] User add a quantity of a product
+2022-01-31 13:26:39.893 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:26:39.893 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:26:43.406 -06:00 [INF] Product has been added
+2022-01-31 13:26:43.408 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:26:43.408 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:26:56.091 -06:00 [INF] User added a new name of a new product
+2022-01-31 13:27:19.159 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:27:19.159 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:27:21.500 -06:00 [INF] User added a new name of a new product
+2022-01-31 13:29:31.081 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:29:31.081 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:29:34.409 -06:00 [INF] User has added a price to a product
+2022-01-31 13:29:39.765 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:29:39.766 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:30:30.761 -06:00 [INF] User has added a description to a product
+2022-01-31 13:30:32.696 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:30:32.697 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:30:37.594 -06:00 [INF] User add a quantity of a product
+2022-01-31 13:30:51.925 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:30:51.925 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:30:53.770 -06:00 [INF] User has added a price to a product
+2022-01-31 13:30:57.084 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:30:57.084 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:31:00.191 -06:00 [INF] Product has been added
+2022-01-31 13:31:00.192 -06:00 [INF] Displaying Add Product menu to user
+2022-01-31 13:31:00.193 -06:00 [INF] System displayed addProduct menu to user.
+2022-01-31 13:34:08.183 -06:00 [INF] Displaying MainMenu to user
+2022-01-31 13:34:08.183 -06:00 [INF] User is viewing main menu of store
+2022-01-31 13:34:09.760 -06:00 [INF] User Exited the Add Customer 
+2022-01-31 13:34:09.760 -06:00 [INF] Exiting Application
