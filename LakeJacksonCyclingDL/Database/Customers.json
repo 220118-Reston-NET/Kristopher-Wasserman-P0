@@ -1,5 +1,6 @@
 [
   {
+    "cId": 0,
     "Name": "Joe Smith",
     "Address": "1234 Some st",
     "City": "Lake Jackson",
@@ -9,11 +10,13 @@
     "PhoneNumber": 12345678910,
     "Ordered": [
       {
+        "orderID": 0,
         "LineItems": null
       }
     ]
   },
   {
+    "cId": 0,
     "Name": "Kristopher Wasserman",
     "Address": "202 Arrowhead Dr",
     "City": "Lake Jackson",
@@ -23,6 +26,55 @@
     "PhoneNumber": 18083989431,
     "Ordered": [
       {
+        "orderID": 0,
+        "LineItems": null
+      }
+    ]
+  },
+  {
+    "cId": 0,
+    "Name": "Jeff Wasserman",
+    "Address": "202 Arrowhead Dr",
+    "City": "Lake Jackson",
+    "State": "Texas",
+    "Zip": 77566,
+    "Email": "jeffwasserman01@comcast.net",
+    "PhoneNumber": 8089900615,
+    "Ordered": [
+      {
+        "orderID": 0,
+        "LineItems": null
+      }
+    ]
+  },
+  {
+    "cId": 0,
+    "Name": "Jeff Wasserman",
+    "Address": "202 Arrowhead Dr",
+    "City": "Lake Jackson",
+    "State": "Texas",
+    "Zip": 77566,
+    "Email": "jeffwasserman01@comcast.net",
+    "PhoneNumber": 8089900615,
+    "Ordered": [
+      {
+        "orderID": 0,
+        "LineItems": null
+      }
+    ]
+  },
+  {
+    "cId": 0,
+    "Name": "Jeff Wasserman",
+    "Address": "202 Arrowhead Dr",
+    "City": "Lake Jackson",
+    "State": "Texas",
+    "Zip": 77566,
+    "Email": "jeffwasserman01@comcast.net",
+    "PhoneNumber": 8089900615,
+    "Ordered": [
+      {
+        "orderID": 0,
         "LineItems": null
       }
     ]
