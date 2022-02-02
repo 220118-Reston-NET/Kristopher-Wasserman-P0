@@ -2,6 +2,7 @@ namespace LakeJacksonCyclingModel
 {
     public class ItemsLines
     {
+        public int itemID {get;set;}
         private string _itemName;
         public string ItemName
         {
