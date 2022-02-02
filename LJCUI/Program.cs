@@ -3,9 +3,15 @@ global using Serilog;
 using LJCUI;
 using LakeJacksonCyclingBL;
 using LakeJacksonCyclingDL;
-
+using Microsoft.Extensions.Configuration;
 
 Log.Logger = new LoggerConfiguration().WriteTo.File("./logs/user.txt").CreateLogger();
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("settings.json")
+    .Build();
+
+string _connString = configuration.GetConnectionString("Database");    
 
 bool repeat = true;
 IMenu menu = new MainMenu();
