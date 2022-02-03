@@ -16,21 +16,27 @@ string _connString = configuration.GetConnectionString("Database");
 bool repeat = true;
 IMenu menu = new MainMenu();
 
-  
+    ///
+    /// shows the user a welcome screen and asks for a name to be called by
+    ///  
+    Console.Clear();
     Log.Information("System displayed main menu");
     Console.WriteLine("Welcome to Lake Jackson Cycling");
     Console.WriteLine("Can I get your name?");
     string name = Console.ReadLine(); 
     Console.WriteLine("OK "+ name +", How may I help you?");
+    Console.ReadLine();
     
 while(repeat)
-{
+{ 
+    
     Console.Clear(); 
     /*
         The bottom four lines of code show the welcome and how may i help you responses/question when you enter the store or website
     */
   
     menu.Display();
+   
 
    
     
@@ -43,7 +49,7 @@ while(repeat)
     {
         case "AddCustomer":
             Log.Information("Displaying add customer to user");
-            menu = new AddCustomer(new LakeJacksonBL(new Repository()));
+            menu = new AddCustomer(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
         case "MainMenu":
             Log.Information("Displaying MainMenu to user");
