@@ -15,15 +15,9 @@ namespace LakeJacksonCyclingBL
         }
         public Customers AddCustomer(Customers p_name)
         {
-            List<Customers> CustomerList = _repo.GetCustomers();
-            if(_repo.GetCustomers() != null)
-            {
+            
               return _repo.AddCustomer(p_name);
-            }
-            else
-            {
-                throw new Exception("There are no customers ordering from us.");
-            }
+            
         }
 
         public ItemsLines AddInventory(ItemsLines p_inv)
