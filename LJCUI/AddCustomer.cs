@@ -84,6 +84,7 @@ namespace LJCUI
                         Log.Information("Employee - CustomerAdded!");
                         Console.WriteLine("CustomerAdded");
                         _LakeJacksonCycleBL.AddCustomer(_cInfo);
+                        Console.WriteLine("Please press Enter to contiune.");
                         Console.ReadLine();
                     }
                     catch (System.Exception exc)
