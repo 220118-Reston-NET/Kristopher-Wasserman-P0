@@ -20,14 +20,14 @@ namespace LakeJacksonCyclingBL
             
         }
 
-        public ItemsLines AddInventory(ItemsLines p_inv)
-        {
-            throw new NotImplementedException();
-        }
-
         public ItemsLines AddProduct(ItemsLines p_name)
         {
             return _repo.AddProduct(p_name);
+        }
+
+        public List<ItemsLines> GetAllProducts()
+        {
+            return _repo.GetAllProducts();
         }
 
         public List<Customers> SearchCustomer(string p_name)
@@ -37,6 +37,16 @@ namespace LakeJacksonCyclingBL
             return CustomerList.Where(cList => cList.Name.Contains(p_name)).ToList();
         }
 
-        
+
+        public List<ItemsLines> SearchProducts(string p_name)
+        {
+            List<ItemsLines> ProductList = _repo.GetProducts();
+            return ProductList.Where(pList => pList.ItemName.Contains(p_name)).ToList();
+        }
+
+        public List<ItemsLines> ViewProducts(string name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
