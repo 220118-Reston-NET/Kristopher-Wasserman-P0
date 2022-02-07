@@ -57,11 +57,15 @@ while(repeat)
             break;
         case "AddProduct":
             Log.Information("Displaying Add Product menu to user");
-            menu = new AddProduct(new LakeJacksonBL(new Repository()));
+            menu = new AddProduct(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
+        case "SearchProducts" :
+            Log.Information("Employee accessed inventory lookup menu");
+            menu = new SearchProducts(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
         case "SearchCustomer":
             Log.Information("Employee accessed search function");
-            menu = new SearchCustomer(new LakeJacksonBL(new Repository()));;
+            menu = new SearchCustomer(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
 
         case "Exit":
@@ -73,7 +77,6 @@ while(repeat)
             Log.Warning("A user made an incorrect option");
             Console.WriteLine("Please enter a valid option.");
             Console.WriteLine("Press Enter to continue");
-            Console.ReadLine();
             Console.ReadLine();
             break;
     }
