@@ -71,7 +71,7 @@ namespace LJCUI
                 case "6":
                     Log.Information("Employee updated customer's phone number");
                     Console.WriteLine("Please enter a phone number!(numbers only please)");
-                    _cInfo.PhoneNumber = Convert.ToInt64(Console.ReadLine());
+                    _cInfo.PhoneNumber = Console.ReadLine();
                     break;
                 case "7":
                     Log.Information("Employee updated customer's email");
