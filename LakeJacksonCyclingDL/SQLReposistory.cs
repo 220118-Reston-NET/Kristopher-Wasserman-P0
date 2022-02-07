@@ -39,17 +39,100 @@ namespace LakeJacksonCyclingDL
 
         public ItemsLines AddProduct(ItemsLines p_name)
         {
-            throw new NotImplementedException();
+            string sqlQuery = @"insert into Products values(@itemName, @Description, @Price)";
+
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                
+                command.Parameters.AddWithValue("@itemName", p_name.ItemName);
+                command.Parameters.AddWithValue("@Description", p_name.Description);
+                command.Parameters.AddWithValue("@Price", p_name.Price);
+
+                command.ExecuteNonQuery();
+            }
+        return p_name;
+        }
+
+        public List<ItemsLines> GetAllProducts()  
+        {
+            List<ItemsLines>listOfProducts = new List<ItemsLines>();
+            string sqlQuery = "Select * from Products";
+
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                SqlDataReader reader = command.ExecuteReader();
+                while(reader.Read())
+                {
+                    listOfProducts.Add(new ItemsLines(){
+                        itemID = reader.GetInt32(3),
+                        ItemName = reader.GetString(0),
+                        Description = reader.GetString(1),
+                        Price = reader.GetDouble(2)
+                    });
+                }
+            }
+            return listOfProducts;
         }
 
         public List<Customers> GetCustomers()
         {
-            throw new NotImplementedException();
+            List<Customers> ListOfCustomers = new List<Customers>();
+            string sqlquery = @"Select * from CustomerInfo";
+
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+                SqlCommand command = new SqlCommand(sqlquery,con);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                        ListOfCustomers.Add(new Customers(){
+                        cId = reader.GetInt32(7), 
+                        Name = reader.GetString(0),
+                        Address = reader.GetString(1),
+                        City = reader.GetString(2),
+                        State = reader.GetString(3),
+                        Zip = reader.GetInt32(4),
+                        Email = reader.GetString(5),
+                        PhoneNumber = reader.GetString(6)
+                    });
+                }
+            return ListOfCustomers;
+
+            }
         }
+
+        
 
         public List<ItemsLines> GetProducts()
         {
-            throw new NotImplementedException();
+            List<ItemsLines>ListOfProducts = new List<ItemsLines>();
+            string sqlQuery = "Select * from Products";
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                SqlDataReader reader = command.ExecuteReader();
+                while(reader.Read())
+                {
+                    ListOfProducts.Add(new ItemsLines(){
+                        itemID = reader.GetInt32(3),
+                        ItemName = reader.GetString(0),
+                        Description = reader.GetString(1),
+                        Price = reader.GetDouble(2),
+
+                    });
+
+                }
+            return ListOfProducts;
+            }
         }
     }
 }
