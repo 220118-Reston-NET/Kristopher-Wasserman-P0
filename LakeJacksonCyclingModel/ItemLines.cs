@@ -81,6 +81,9 @@ namespace LakeJacksonCyclingModel
             Quantity = 100;
         }
         
-        
+        public override string ToString()
+        {
+            return $"ID: {itemID}\n Name: {ItemName}\n Description: {Description}\n Price: {Price}";
+        }
     }
 }
