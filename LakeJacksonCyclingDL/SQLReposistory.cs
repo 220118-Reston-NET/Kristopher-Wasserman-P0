@@ -107,9 +107,7 @@ namespace LakeJacksonCyclingDL
             return ListOfCustomers;
 
             }
-        }
-
-        
+        }  
 
         public List<ItemsLines> GetProducts()
         {
@@ -133,6 +131,11 @@ namespace LakeJacksonCyclingDL
                 }
             return ListOfProducts;
             }
+        }
+
+        public List<ItemsLines> PlaceOrder()
+        {
+            throw new NotImplementedException();
         }
     }
 }
