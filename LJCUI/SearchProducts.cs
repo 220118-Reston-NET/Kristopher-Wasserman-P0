@@ -35,7 +35,7 @@ namespace LJCUI
                 Console.WriteLine("==========================");
                 Console.WriteLine(item);
             }
-            Console.WriteLine("** [1] - Search Product by ID           **");
+            Console.WriteLine("** [1] - Order Product by ID           **");
             Console.WriteLine("** [0] - Go Back                           **");
             Console.WriteLine("*********************************************");
         }
@@ -46,20 +46,18 @@ namespace LJCUI
             switch (asw)
             {
                 case "1":
-                    Console.WriteLine("SomeThing");
-                    break;
+                    return "PlaceOrder";
                 case "0":
                     return "MainMenu";
-                default:
+                default: 
+                    Log.Warning("A user made an incorrect option");
+                    Console.WriteLine("Please enter a valid option.");
+                    Console.WriteLine("Press Enter to continue");
+                    Console.ReadLine();
                     return "SearchProducts";
                 
             }
             
-            Log.Warning("A user made an incorrect option");
-            Console.WriteLine("Please enter a valid option.");
-            Console.WriteLine("Press Enter to continue");
-            Console.ReadLine();
-            return "SearchProducts";
         }
     }
 }

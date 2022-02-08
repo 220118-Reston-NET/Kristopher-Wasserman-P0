@@ -68,6 +68,11 @@ while(repeat)
             menu = new SearchCustomer(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
 
+        case "PlaceOrder":
+            Log.Information("Place Order function has been accessed by the user");
+            menu = new PlaceOrder();
+            break;
+
         case "Exit":
             Log.Information("Exiting Application");
             Log.CloseAndFlush();
