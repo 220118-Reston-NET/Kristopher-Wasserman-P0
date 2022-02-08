@@ -83,7 +83,7 @@ namespace LakeJacksonCyclingModel
         
         public override string ToString()
         {
-            return $"ID: {itemID}\n Name: {ItemName}\n Description: {Description}\n Price: {Price}";
+            return $"ID: {itemID}\n Name: {ItemName}";
         }
     }
 }
