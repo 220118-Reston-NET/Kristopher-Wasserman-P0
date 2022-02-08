@@ -37,6 +37,10 @@ namespace LakeJacksonCyclingBL
             return CustomerList.Where(cList => cList.Name.Contains(p_name)).ToList();
         }
 
+        public List<ItemsLines> PlaceOrder(string p_name)
+        {
+             return _repo.PlaceOrder();
+        }
 
         public List<ItemsLines> SearchProducts(string p_name)
         {

@@ -13,6 +13,7 @@ namespace LakeJacksonCyclingDL
             List<Customers> GetCustomers();
             List<ItemsLines> GetProducts();
             List<ItemsLines> GetAllProducts();
+            List<ItemsLines> PlaceOrder();
     }
 }
 
