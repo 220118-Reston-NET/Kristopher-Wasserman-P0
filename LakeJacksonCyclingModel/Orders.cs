@@ -3,9 +3,9 @@ namespace LakeJacksonCyclingModel
     public class Orders
     {
         public int orderID {get;set;}
-        private List<ItemsLines> _itemLine;
+        private List<ItemLines> _itemLine;
         public int orderTotal;
-        public List<ItemsLines> LineItems
+        public List<ItemLines> LineItems
         {
             get { return _itemLine; }
             set

@@ -16,20 +16,27 @@ namespace LakeJacksonCyclingBL
         /// <param name="p_name">name is being used to add to the database</param>
         /// <returns></returns>
         Customers AddCustomer(Customers p_name);
-        List<ItemsLines> SearchProducts(string name);
+        List<Products> SearchProducts(string name);
 
-        List<ItemsLines> GetAllProducts();
+        List<Products> GetAllProducts();
+
+        List<Customers> GetAllCustomers();
         List<Customers> SearchCustomer(string name);
 
+       Customers GetCustomerById(int customerID);
+
+       Products GetAllProductByStoreID(int storeid);
+
+      List<StoreFrontModel> GetAllStoreFront();
 
     /// <summary>
     /// this function will add Inventory to the store
     /// </summary>
     /// <param name="p_name"></param>
     /// <returns></returns>
-        ItemsLines AddProduct(ItemsLines p_name);
+        Products AddProduct(Products p_name);
 
-
+       Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart);
 
 
     }

@@ -10,7 +10,7 @@ namespace LJCUI
         /// The lines of code below are depecdent injection. Please do not remove. Needed to make program run.
         /// </summary>
         /// <returns></returns>
-        private static ItemsLines _pInfo = new ItemsLines();
+        private static Products _pInfo = new Products();
         private ILakeJacksonBL _LakeJacksonCycleBL;
         public AddProduct(ILakeJacksonBL p_name)
         {
@@ -27,7 +27,7 @@ namespace LJCUI
            Console.WriteLine("** [1] Product Name: "+ _pInfo.ItemName + " **");
            Console.WriteLine("** [2] Price: "+ _pInfo.Price + " **");
            Console.WriteLine("** [3] Description: "+ _pInfo.Description + " **");
-           Console.WriteLine("** [4] Quantity: " + _pInfo.Quantity + " **");
+           Console.WriteLine("** [4] Quantity: " + _pInfo.Quantity);
            Console.WriteLine("** [9] - Save");
            Console.WriteLine("*****   Add Inventory(Empolyee)     *****");
            Console.WriteLine("[0] Go Back");

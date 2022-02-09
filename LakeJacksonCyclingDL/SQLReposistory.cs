@@ -37,7 +37,7 @@ namespace LakeJacksonCyclingDL
             return p_name;
         }
 
-        public ItemsLines AddProduct(ItemsLines p_name)
+        public Products AddProduct(Products p_name)
         {
             string sqlQuery = @"insert into Products values(@itemName, @Description, @Price)";
 
@@ -56,10 +56,12 @@ namespace LakeJacksonCyclingDL
         return p_name;
         }
 
-        public List<ItemsLines> GetAllProducts()  
+        
+
+        public List<Products> GetAllProducts()  
         {
-            List<ItemsLines>listOfProducts = new List<ItemsLines>();
-            string sqlQuery = "Select * from Products";
+            List<Products>listOfProducts = new List<Products>();
+            string sqlQuery = @"Select * from Products";
 
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
@@ -69,8 +71,8 @@ namespace LakeJacksonCyclingDL
                 SqlDataReader reader = command.ExecuteReader();
                 while(reader.Read())
                 {
-                    listOfProducts.Add(new ItemsLines(){
-                        itemID = reader.GetInt32(3),
+                    listOfProducts.Add(new Products(){
+                        productID = reader.GetInt32(3),
                         ItemName = reader.GetString(0),
                         Description = reader.GetString(1),
                         Price = reader.GetDouble(2)
@@ -80,7 +82,7 @@ namespace LakeJacksonCyclingDL
             return listOfProducts;
         }
 
-        public List<Customers> GetCustomers()
+        public List<Customers> GetAllCustomers()
         {
             List<Customers> ListOfCustomers = new List<Customers>();
             string sqlquery = @"Select * from CustomerInfo";
@@ -108,10 +110,33 @@ namespace LakeJacksonCyclingDL
 
             }
         }  
-
-        public List<ItemsLines> GetProducts()
+        public List<StoreFrontModel> GetAllStoreFront()
         {
-            List<ItemsLines>ListOfProducts = new List<ItemsLines>();
+            List<StoreFrontModel> listOfStoreFront = new List<StoreFrontModel>();
+            string sqlQuery = @"Select * from StoreFront";
+
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+                SqlCommand command = new SqlCommand(sqlQuery,        con);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while(reader.Read())
+                {
+                    listOfStoreFront.Add(new StoreFrontModel(){
+                        storeId = reader.GetInt32(0),
+                        StoreName = reader.GetString(1),
+                        Address = reader.GetString(2),
+                        Phone = reader.GetString(3)
+                    });
+                } 
+            return listOfStoreFront;
+            }
+           
+        }
+        public List<Products> GetProducts()
+        {
+            List<Products>ListOfProducts = new List<Products>();
             string sqlQuery = "Select * from Products";
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
@@ -120,8 +145,8 @@ namespace LakeJacksonCyclingDL
                 SqlDataReader reader = command.ExecuteReader();
                 while(reader.Read())
                 {
-                    ListOfProducts.Add(new ItemsLines(){
-                        itemID = reader.GetInt32(3),
+                    ListOfProducts.Add(new Products(){
+                        productID = reader.GetInt32(3),
                         ItemName = reader.GetString(0),
                         Description = reader.GetString(1),
                         Price = reader.GetDouble(2),
@@ -133,7 +158,7 @@ namespace LakeJacksonCyclingDL
             }
         }
 
-        public List<ItemsLines> PlaceOrder()
+        public Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart)
         {
             throw new NotImplementedException();
         }

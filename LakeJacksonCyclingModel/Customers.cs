@@ -22,25 +22,10 @@
             }
         }
 
-        public Customers()
-        {
-            cId = 0;
-            Name = "Joe Smith";
-            Address = "1234 Some st";
-            City = "Lake Jackson";
-            State = "Texas";
-            Zip = 77566;
-            Email = "someone@thisplace.com";
-            PhoneNumber = "12345678910";
-            _orders = new List<Orders>()
-            {
-                new Orders()
-            };
-        }
-
+        
         public override string ToString()
         {
-            return Name;
+           return $"Id: {cId} \nName: {Name} \n City: {City} \n State: {State}";
         }
     }
 }

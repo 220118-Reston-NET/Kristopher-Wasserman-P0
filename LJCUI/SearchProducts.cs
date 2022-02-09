@@ -5,7 +5,7 @@ namespace LJCUI
 {
     public class SearchProducts : IMenu
     {
-        private List<ItemsLines> _productList;
+        private List<Products> _productList;
         private ILakeJacksonBL _LakeJacksonCycleBL;
         
         //My Customer Dependency Injection

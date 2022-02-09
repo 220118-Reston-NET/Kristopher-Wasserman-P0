@@ -70,7 +70,7 @@ while(repeat)
 
         case "PlaceOrder":
             Log.Information("Place Order function has been accessed by the user");
-            menu = new PlaceOrder();
+            menu = new PlaceOrder(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
 
         case "Exit":

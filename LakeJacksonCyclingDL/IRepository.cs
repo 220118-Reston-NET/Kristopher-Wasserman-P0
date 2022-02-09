@@ -4,16 +4,17 @@ namespace LakeJacksonCyclingDL
 {
     public interface IRepository
     {
-           ItemsLines AddProduct( ItemsLines p_name);
+           Products AddProduct( Products p_name);
            Customers AddCustomer( Customers p_name);
            /// <summary>
             ///     Gets the current list of customers within the database.
             /// </summary>
             /// <returns></returns>
-            List<Customers> GetCustomers();
-            List<ItemsLines> GetProducts();
-            List<ItemsLines> GetAllProducts();
-            List<ItemsLines> PlaceOrder();
+            List<Customers> GetAllCustomers();
+            List<Products> GetProducts();
+            List<Products> GetAllProducts();
+            List<StoreFrontModel> GetAllStoreFront();
+            Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart);    
     }
 }
 
