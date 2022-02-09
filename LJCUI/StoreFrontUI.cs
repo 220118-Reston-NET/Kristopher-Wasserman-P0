@@ -3,9 +3,10 @@ using LakeJacksonCyclingModel;
 
 namespace LJCUI
 {
-    public class StoreFront : IMenu
+    public class StoreFrontUI : IMenu
     {
         private static List<StoreFrontModel>  listOfStoreFront = new List<StoreFrontModel>();
+        public static StoreFrontModel selectedStore = new StoreFrontModel();
 
         private ILakeJacksonBL _LakeJacksonCycleBL;
       
@@ -15,9 +16,10 @@ namespace LJCUI
             listOfStoreFront =  _LakeJacksonCycleBL.GetAllStoreFront();
         }
 
-        public static StoreFrontModel selectedStore = new StoreFrontModel();
+        
         public void Display()
         {
+            Log.Information("displayed shop selection app");
             Console.WriteLine("What location would you like to shop at?");
              foreach (var storeid in listOfStoreFront)
             {
@@ -44,7 +46,7 @@ namespace LJCUI
                         storeID = Convert.ToInt32(Console.ReadLine());  
 
                     }    
-                     selectedStore = _LakeJacksonCycleBL.GetAllProductByStoreID(storeId);//_LakeJacksonCycleBL.GetCustomerById(storeID);
+                     selectedStore = _LakeJacksonCycleBL.GetAllProductByStoreID(storeID);//_LakeJacksonCycleBL.GetCustomerById(storeID);
                      return "StoreMenu";
                 
                 case "0":
