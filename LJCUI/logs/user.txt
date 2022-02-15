@@ -2470,3 +2470,5 @@
 2022-02-14 20:30:16.591 -06:00 [INF] User is viewing main menu of store
 2022-02-14 20:30:20.318 -06:00 [INF] Employee placed an order!MONEY
 2022-02-14 20:30:20.318 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-14 20:32:54.949 -06:00 [INF] System displayed main menu
+2022-02-14 20:32:54.959 -06:00 [INF] User is viewing main menu of store
