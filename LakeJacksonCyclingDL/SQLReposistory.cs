@@ -104,7 +104,7 @@ namespace LakeJacksonCyclingDL
                         Address = reader.GetString(1),
                         City = reader.GetString(2),
                         State = reader.GetString(3),
-                        Zip = reader.GetInt32(4),
+                        Zip = reader.GetString(4),
                         Email = reader.GetString(5),
                         PhoneNumber = reader.GetString(6)
                     });
