@@ -66,7 +66,7 @@ namespace LJCUI
                 case "5":
                     Log.Information("Employee updated customer's Zip code");
                     Console.WriteLine("Please enter the Zip(numbers only please)");
-                    _cInfo.Zip = Convert.ToInt32(Console.ReadLine());
+                    _cInfo.Zip = Console.ReadLine();
                     break;
                 case "6":
                     Log.Information("Employee updated customer's phone number");
