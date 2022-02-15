@@ -39,19 +39,22 @@ namespace LakeJacksonCyclingDL
 
         public Products AddProduct(Products p_name)
         {
+            
             string sqlQuery = @"insert into Products values(@itemName, @Description, @Price)";
-
+            
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
                 con.Open();
+
 
                 SqlCommand command = new SqlCommand(sqlQuery,con);
                 
                 command.Parameters.AddWithValue("@itemName", p_name.ItemName);
                 command.Parameters.AddWithValue("@Description", p_name.Description);
                 command.Parameters.AddWithValue("@Price", p_name.Price);
-
                 command.ExecuteNonQuery();
+                    
+                
             }
         return p_name;
         }
@@ -60,8 +63,8 @@ namespace LakeJacksonCyclingDL
 
         public List<Products> GetAllProducts()  
         {
-            List<Products>listOfProducts = new List<Products>();
-            string sqlQuery = @"Select * from Products";
+            List<Products> listOfProducts = new List<Products>();
+            string sqlQuery = @"select * from Products p ";
 
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
@@ -118,7 +121,7 @@ namespace LakeJacksonCyclingDL
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
                 con.Open();
-                SqlCommand command = new SqlCommand(sqlQuery,        con);
+                SqlCommand command = new SqlCommand(sqlQuery, con);
                 SqlDataReader reader = command.ExecuteReader();
 
                 while(reader.Read())
@@ -158,9 +161,91 @@ namespace LakeJacksonCyclingDL
             }
         }
 
-        public Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart)
+        public Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart, double totalPrice)
         {
-            throw new NotImplementedException();
+            Orders order = new Orders();
+            string sqlQuery = @"insert into Orders values(@storeID, @customerID,@OrderTotal); Select scope_identity()";
+            string sqlQuery1 = @"insert into LineItem values(@orderid,  @productid, @quantity)";
+            string sqlQuery2 = @"update Inventory 
+                                    set quantity = quantity - @Quantity
+                                    WHERE storeid = @storeid and productID = @productid";
+            
+           
+            using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                
+            
+                command.Parameters.AddWithValue("@storeID", storeID);
+                command.Parameters.AddWithValue("@customerID", customerID);
+                command.Parameters.AddWithValue("@OrderTotal", totalPrice);
+
+
+
+                int orderID = Convert.ToInt32(command.ExecuteScalar());
+                foreach (var item in _cart)
+                {
+                    command = new SqlCommand(sqlQuery1,con);
+                    command.Parameters.AddWithValue("@orderid", orderID);
+                    command.Parameters.AddWithValue("@productid", item.productid);
+                    command.Parameters.AddWithValue("@quantity", item.quantity);
+                    command.ExecuteNonQuery();
+
+                    command = new SqlCommand(sqlQuery2,con);
+                    command.Parameters.AddWithValue("@storeid", storeID);
+                    command.Parameters.AddWithValue("@productid", item.productid);
+                    command.Parameters.AddWithValue("@Quantity", item.quantity);
+                    command.ExecuteNonQuery();
+                    
+                }
+                
+            }
+            Console.WriteLine("Order Submitted");
+            return order;
+        }
+
+        public List<Inventory> GetAllInventory()
+        {
+            string sqlQuery = "select * from Inventory i ";
+            List<Inventory> listOfInventory = new List<Inventory>();
+           using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+
+                SqlDataReader reader = command.ExecuteReader();
+                while(reader.Read())
+                {
+                    listOfInventory.Add(new Inventory(){
+                        productID = reader.GetInt32(0),
+                        storeID  = reader.GetInt32(1),
+                        Quantity = reader.GetInt32(2)
+                    });
+                }
+            }   
+           return listOfInventory;
+        }
+
+        public void AddProductToStore(int storeID, int productID, int quantity)
+        {
+            string sqlQuery = "insert into Inventory values (@productid, @storeid,@quantity)";
+
+             using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                
+            
+                command.Parameters.AddWithValue("@productid", productID);
+                command.Parameters.AddWithValue("@storeid", storeID);
+                command.Parameters.AddWithValue("@quantity", quantity);
+
+                command.ExecuteNonQuery();
+
+            }
         }
     }
 }

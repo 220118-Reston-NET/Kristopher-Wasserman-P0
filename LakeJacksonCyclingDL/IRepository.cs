@@ -14,7 +14,10 @@ namespace LakeJacksonCyclingDL
             List<Products> GetProducts();
             List<Products> GetAllProducts();
             List<StoreFrontModel> GetAllStoreFront();
-            Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart);    
+            Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart, double totalPrice);  
+
+            List<Inventory> GetAllInventory(); 
+            void AddProductToStore(int storeID,int  productID,int quantity);
     }
 }
 

@@ -3,24 +3,23 @@ using LakeJacksonCyclingModel;
 
 namespace LJCUI
 {
-    public class StoreFrontUI : IMenu
+    public class Store : IMenu
     {
-        private static List<StoreFrontModel>  listOfStoreFront = new List<StoreFrontModel>();
+         private static List<StoreFrontModel>  listOfStoreFront = new List<StoreFrontModel>();
+        
         public static StoreFrontModel selectedStore = new StoreFrontModel();
-
         private ILakeJacksonBL _LakeJacksonCycleBL;
       
-        public StoreFrontUI(ILakeJacksonBL p_name)
+        public Store(ILakeJacksonBL p_name)
         {
            _LakeJacksonCycleBL = p_name;
             listOfStoreFront =  _LakeJacksonCycleBL.GetAllStoreFront();
         }
 
-        
         public void Display()
         {
-            Log.Information("displayed shop selection app");
-            Console.WriteLine("What location would you like to shop at?");
+            Log.Information("Eployee login in to view store inventory page");
+            Console.WriteLine("Which store location do you want to manage?");
              foreach (var storeid in listOfStoreFront)
             {
                 Console.WriteLine("-------------------");
@@ -28,12 +27,11 @@ namespace LJCUI
             }
             Console.WriteLine("[1] - Please enter a id to begin order");
             Console.WriteLine("[0] - Go Back");
-
         }
 
         public string UserInput()
         {
-           string asn = Console.ReadLine();
+            string asn = Console.ReadLine();
             switch(asn)
             {
                
@@ -43,18 +41,20 @@ namespace LJCUI
                     if(storeID != 0){
                         while(listOfStoreFront.All(store => store.storeId != storeID))
                         {
-                            Console.WriteLine("Please enter the store ID that you would like to shop at?");
+                            Console.WriteLine("Please enter the store ID that you would like to manage?");
                             storeID = Convert.ToInt32(Console.ReadLine());  
 
                         }   
                      
+                     Log.Information ("Employee has made an store order for inventory");
                      selectedStore = _LakeJacksonCycleBL.GetStoreFrontById(storeID);
-                     return "StoreMenu"; 
+                     return "StoreInventory"; 
                     }
                     else{
+                        Log.Error("Employee made an error");
                         Console.WriteLine("PLease press Enter to contiune.");
                         Console.ReadLine();
-                        return "StoreMenu";
+                        return "Store";
                     }
                    
                    
@@ -65,7 +65,7 @@ namespace LJCUI
                     Log.Warning("User did not enter any valid options");
                     Console.WriteLine("Please select a valid option.");
                     Console.WriteLine("Please press Enter to continue");
-                    return "PlaceOrder";
+                    return "Store";
             }
         }
     }

@@ -59,9 +59,9 @@ namespace LakeJacksonCyclingBL
             return GetAllCustomers().Where(customer => customer.cId.Equals(customerID)).First();
         }
 
-        public Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart)
+        public Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart, double totalPrice)
         {
-            return _repo.PlaceOrder(customerID, storeID, _cart);
+            return _repo.PlaceOrder(customerID, storeID, _cart, totalPrice);
         }
 
         public List<StoreFrontModel> GetAllStoreFront()
@@ -70,9 +70,35 @@ namespace LakeJacksonCyclingBL
         }
 
 
-        public Products GetAllProductByStoreID(int storeid)
+        public List<Products> GetAllProductsByStoreID(int storeid)
         {
-            return GetAllProducts().Where(storeID=> storeID.Equals(storeID)).First();
+            List<Products> listOfProduct = new List<Products>();
+            foreach (var p_name in GetAllInventoryByStoreId(storeid))
+            {
+                listOfProduct.Add(GetAllProducts().Find(p => p.productID.Equals(p_name.productID)));
+            }
+            //return GetAllProducts().Where(storeID=> storeID.Equals(storeid)).ToList();
+            return listOfProduct;
+        }
+
+        public StoreFrontModel GetStoreFrontById(int storeid)
+        {
+            return GetAllStoreFront().Where(storeid=>storeid.Equals(storeid)).First();
+        }
+
+        public List<Inventory> GetAllInventory()
+        {
+            return _repo.GetAllInventory();
+        }
+
+        public List<Inventory> GetAllInventoryByStoreId(int storeID)
+        {
+            return GetAllInventory().FindAll(p => p.storeID.Equals(storeID));
+        }
+
+        public void AddProductToStore(int storeID, int productID, int quantity)
+        {
+           _repo.AddProductToStore(storeID,  productID, quantity);
         }
     }
 }

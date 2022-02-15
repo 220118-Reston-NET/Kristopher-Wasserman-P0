@@ -6,6 +6,7 @@ namespace LJCUI
     /// </summary>
     public interface IMenu
     {   
+        
         void Display();
 
         string UserInput();

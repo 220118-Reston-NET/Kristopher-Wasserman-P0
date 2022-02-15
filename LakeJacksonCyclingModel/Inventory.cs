@@ -4,5 +4,7 @@ namespace LakeJacksonCyclingModel
     {
         public int productID { get;set; }
         public int storeID { get; set; }
+
+        public int Quantity { get; set; }
     }
 }

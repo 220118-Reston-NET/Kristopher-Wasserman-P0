@@ -25,7 +25,8 @@ namespace LakeJacksonCyclingBL
 
        Customers GetCustomerById(int customerID);
 
-       Products GetAllProductByStoreID(int storeid);
+        StoreFrontModel GetStoreFrontById(int storeid);
+      List<Products> GetAllProductsByStoreID(int storeid);
 
       List<StoreFrontModel> GetAllStoreFront();
 
@@ -36,9 +37,13 @@ namespace LakeJacksonCyclingBL
     /// <returns></returns>
         Products AddProduct(Products p_name);
 
-       Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart);
+       Orders PlaceOrder(int customerID, int storeID, List<ItemLines> _cart, double totalPrice);
 
+      List<Inventory> GetAllInventory();
 
+      List<Inventory> GetAllInventoryByStoreId(int storeID);
+
+      void AddProductToStore(int storeID,int  productID,int quantity);
     }
 }
 

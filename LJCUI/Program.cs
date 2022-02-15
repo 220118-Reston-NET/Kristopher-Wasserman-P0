@@ -12,20 +12,16 @@ var configuration = new ConfigurationBuilder()
     .Build();
 
 string _connString = configuration.GetConnectionString("Database");    
-
+ Console.Clear();
 bool repeat = true;
 IMenu menu = new MainMenu();
 
     ///
     /// shows the user a welcome screen and asks for a name to be called by
     ///  
-    Console.Clear();
+   
     Log.Information("System displayed main menu");
     Console.WriteLine("Welcome to Lake Jackson Cycling");
-    Console.WriteLine("Can I get your name?");
-    string name = Console.ReadLine(); 
-    Console.WriteLine("OK "+ name +", How may I help you?");
-    Console.ReadLine();
     
 while(repeat)
 { 
@@ -72,7 +68,18 @@ while(repeat)
             Log.Information("Place Order function has been accessed by the user");
             menu = new PlaceOrder(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
-
+        case "StoreFrontUI":
+            menu = new StoreFrontUI(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
+        case "StoreMenu":
+            menu = new StoreMenu(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
+        case "Store":
+            menu = new Store(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
+        case "StoreInventory":
+            menu = new StoreInventory(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
         case "Exit":
             Log.Information("Exiting Application");
             Log.CloseAndFlush();

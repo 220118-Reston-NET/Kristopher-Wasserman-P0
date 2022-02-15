@@ -29,7 +29,7 @@ namespace LJCUI
                     
                 case "1":
                     Log.Information("Customer Entered the front door");
-                    return "StoreFront";
+                    return "Store";
                    
                 case "2":
                     Log.Information("User is viewing products");
