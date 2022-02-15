@@ -51,6 +51,9 @@ namespace LJCUI
                 case "8":
                     Log.Information("Employee confirmed a Customer by searching them in the database");
                     return "SearchCustomer";
+                case "9":
+                    Log.Information("User accessed History Screen");
+                    return "ViewHistory";
                               
                 default:
                     Log.Warning("A user made an incorrect option");
