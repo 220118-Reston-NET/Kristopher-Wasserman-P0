@@ -80,6 +80,9 @@ while(repeat)
         case "StoreInventory":
             menu = new StoreInventory(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
+        case "VeiwHistory":
+            menu = new ViewHistory();
+            break;
         case "Exit":
             Log.Information("Exiting Application");
             Log.CloseAndFlush();

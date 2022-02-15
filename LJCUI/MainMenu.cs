@@ -14,6 +14,7 @@ namespace LJCUI
             Console.WriteLine("** [6] - Add Products             **");
             Console.WriteLine("** [7] - Place an Order           **");
             Console.WriteLine("** [8] - Search for a customer    **");
+            Console.WriteLine("** [9] - View History             **");
             Console.WriteLine("************************************");
             Console.WriteLine("[0] - Exit");
         }
