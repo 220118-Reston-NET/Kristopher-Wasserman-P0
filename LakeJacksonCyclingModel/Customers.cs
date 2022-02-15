@@ -2,12 +2,43 @@
 {
     public class Customers
     {
+        private string name;
+        private string _zip;
         public int cId {get;set;}
-        public string Name {get;set;}
+        public string Name{
+            get{return name;}
+            set
+            {
+                if(name != " ")
+                {
+                      name = value;  
+                }
+                else
+                {
+                    throw new Exception("The customer must have a name to be called by");
+                }
+            }
+
+        } 
+        
         public string Address { get; set;}
         public string City { get; set; }
         public string State { get; set; }
-        public int Zip { get; set; }
+        public string Zip 
+        {
+            get{ return _zip;}
+            set
+            {
+                if(_zip != null || _zip != "")
+                {
+                    _zip = value;
+                }
+                else
+                {
+                    throw new Exception("A customer must have a zip code");
+                }
+            }
+        }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
 

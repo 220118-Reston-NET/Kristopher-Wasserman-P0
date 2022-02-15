@@ -17,7 +17,7 @@ namespace LakeJacksonCyclingModel
                 }
                 else
                 {
-                    throw new Exception("Please enter a name for the item");
+                    throw new Exception(" Enter a name for the item");
 
                 }
             }
