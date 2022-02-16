@@ -309,5 +309,40 @@ namespace LakeJacksonCyclingDL
 
             return ListOfStoreHistory;
         }
+
+        public List<Inventory> ReplemishInventory(int storeid, int productid, int quantity)
+        {
+            string sqlQuery = @"Update Inventory set quantity = @quantity where storeid = @storeid and productID = @productid";
+
+            List<Inventory> ListOfInventory = new List<Inventory>();
+
+
+             using (SqlConnection con = new SqlConnection(_connectionStrings))
+            {
+                con.Open();
+
+                SqlCommand command = new SqlCommand(sqlQuery,con);
+                
+
+                command.Parameters.AddWithValue("@productid", productid);
+                command.Parameters.AddWithValue("@storeid", storeid);
+                command.Parameters.AddWithValue("@quantity", quantity);
+
+                command.ExecuteNonQuery();
+
+                SqlDataReader reader =  command.ExecuteReader();
+                while(reader.Read())
+                {
+                    ListOfInventory.Add(new Inventory(){
+                        productID = reader.GetInt32(0),
+                        storeID = reader.GetInt32(1),
+                        Quantity = reader.GetInt32(2)
+                    });
+                }
+
+            }
+            return ListOfInventory;
+
+        }
     }
 }

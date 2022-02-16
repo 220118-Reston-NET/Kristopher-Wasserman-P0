@@ -21,6 +21,8 @@ namespace LakeJacksonCyclingDL
             List<Orders> GetCustomerHistory(int customerid);
 
             List<StoreModel> GetStoreHistory(int storeid);
+
+            List<Inventory> ReplemishInventory(int storeid, int productid, int quantity);
     }
 }
 

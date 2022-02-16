@@ -14,7 +14,8 @@ namespace LJCUI
             Console.WriteLine("** [6] - Add Products             **");
             Console.WriteLine("** [7] - Place an Order           **");
             Console.WriteLine("** [8] - Search for a customer    **");
-            Console.WriteLine("** [9] - View History             **");
+            Console.WriteLine("** [9] - View History              **");
+            Console.WriteLine("** [10] - Replemish Inventory      **");
             Console.WriteLine("************************************");
             Console.WriteLine("[0] - Exit");
         }
@@ -54,7 +55,9 @@ namespace LJCUI
                 case "9":
                     Log.Information("User accessed History Screen");
                     return "OrderHistory";
-                              
+                case "10":
+                    Log.Information("User replimeshed inventory");
+                    return "ReplemishInventory";
                 default:
                     Log.Warning("A user made an incorrect option");
                     Console.WriteLine("Please enter a valid option.");

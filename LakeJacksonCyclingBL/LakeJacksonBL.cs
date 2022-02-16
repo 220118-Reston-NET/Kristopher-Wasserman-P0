@@ -109,5 +109,10 @@ namespace LakeJacksonCyclingBL
         {
            return  _repo.GetStoreHistory(storeid);
         }
+
+        public List<Inventory> ReplemishInventory(int storeid, int productid, int quantity)
+        {
+            return _repo.ReplemishInventory(storeid, productid, quantity);
+        }
     }
 }

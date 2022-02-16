@@ -83,6 +83,9 @@ while(repeat)
         case "OrderHistory":
             menu = new OrderHistory(new LakeJacksonBL(new SQLRepository(_connString)));
             break;
+        case "ReplemishInventory":
+            menu = new ReplemishInventory(new LakeJacksonBL(new SQLRepository(_connString)));
+            break;
         case "Exit":
             Log.Information("Exiting Application");
             Log.CloseAndFlush();
