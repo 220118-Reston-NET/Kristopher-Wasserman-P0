@@ -15,7 +15,7 @@ namespace LakeJacksonCyclingModel
 
 
         public override string ToString(){
-            return $"Id: {storeid} \n Store Name: {StoreName} \n Store Address: {StoreAddress},Lake Jackson,Texas \n ====== Store's Order History ========\n Orderid: {orderid}" + " " + $"Product Name: {pName} " + " " + $"Product ID: {productid}" + "" + $"Orders Total: {orderTotal}" + " "+$"=================";
+            return $"====== Store's Order History ========\n Orderid: {orderid}" + " " + $"Product Name: {pName} " + " " + $"Product ID: {productid}" + "" + $"Orders Total: {orderTotal}" + " "+$"=================";
         }
     }
     

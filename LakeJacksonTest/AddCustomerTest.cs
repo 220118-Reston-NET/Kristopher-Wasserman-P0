@@ -12,7 +12,7 @@ namespace LakeJacksonTest
             //Arrange
             Customers cName = new Customers(); /* thos arrange Customer name for test*/
             string validName = "Kristopher";
-            string validZip = "77566";
+            
 
             //Act
             cName.Name = validName;

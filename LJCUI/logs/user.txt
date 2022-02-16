@@ -2916,3 +2916,43 @@
 2022-02-16 01:02:28.484 -06:00 [INF] User replimeshed inventory
 2022-02-16 01:02:35.286 -06:00 [INF] Displaying MainMenu to user
 2022-02-16 01:02:35.287 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:41:42.925 -06:00 [INF] System displayed main menu
+2022-02-16 09:41:42.936 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:54:38.315 -06:00 [INF] Customer Entered the front door
+2022-02-16 09:54:38.974 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 09:54:44.370 -06:00 [INF] Employee has made an store order for inventory
+2022-02-16 09:54:44.491 -06:00 [INF] displayed shop selection app
+2022-02-16 09:54:57.943 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 09:54:59.552 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 09:54:59.553 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:55:01.540 -06:00 [INF] User is viewing products
+2022-02-16 09:55:01.540 -06:00 [INF] Employee accessed inventory lookup menu
+2022-02-16 09:55:01.597 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 09:55:11.365 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 09:55:11.365 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:55:52.197 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 09:55:52.198 -06:00 [INF] Displaying add customer to user
+2022-02-16 09:55:52.198 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 09:55:53.420 -06:00 [INF] Employee updated customer name
+2022-02-16 09:56:05.140 -06:00 [INF] Displaying add customer to user
+2022-02-16 09:56:05.140 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 09:56:07.423 -06:00 [INF] User went back to the main menu.
+2022-02-16 09:56:07.423 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 09:56:07.423 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:56:17.366 -06:00 [INF] Employee placed an order!MONEY
+2022-02-16 09:56:17.366 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 09:56:20.432 -06:00 [INF] User has accessed the place order function
+2022-02-16 09:56:23.614 -06:00 [INF] displayed shop selection app
+2022-02-16 09:56:29.057 -06:00 [INF] Products have been shown
+2022-02-16 09:56:46.448 -06:00 [INF] User started an order
+2022-02-16 09:57:07.013 -06:00 [INF] Products have been shown
+2022-02-16 09:57:09.785 -06:00 [INF] User started an order
+2022-02-16 09:57:25.192 -06:00 [INF] Products have been shown
+2022-02-16 09:57:26.466 -06:00 [INF] User submitted an order
+2022-02-16 09:57:28.405 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 09:57:28.406 -06:00 [INF] User is viewing main menu of store
+2022-02-16 09:57:34.508 -06:00 [INF] User accessed History Screen
+2022-02-16 09:58:01.891 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 09:58:01.892 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:06:26.753 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 10:06:26.753 -06:00 [INF] Exiting Application
