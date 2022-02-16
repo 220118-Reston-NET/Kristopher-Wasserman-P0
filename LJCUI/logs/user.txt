@@ -2956,3 +2956,8 @@
 2022-02-16 09:58:01.892 -06:00 [INF] User is viewing main menu of store
 2022-02-16 10:06:26.753 -06:00 [INF] User Exited the Add Customer 
 2022-02-16 10:06:26.753 -06:00 [INF] Exiting Application
+2022-02-16 10:07:40.648 -06:00 [INF] System displayed main menu
+2022-02-16 10:07:40.658 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:08:40.895 -06:00 [INF] User accessed History Screen
+2022-02-16 10:09:45.157 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:09:45.158 -06:00 [INF] User is viewing main menu of store
