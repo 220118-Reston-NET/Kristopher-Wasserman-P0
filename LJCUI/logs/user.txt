@@ -2858,3 +2858,56 @@
 2022-02-15 22:31:20.690 -06:00 [INF] System displayed main menu
 2022-02-15 22:31:20.702 -06:00 [INF] User is viewing main menu of store
 2022-02-15 22:31:33.375 -06:00 [INF] User accessed History Screen
+2022-02-16 00:00:16.803 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 00:00:16.804 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:00:17.438 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 00:00:17.439 -06:00 [INF] Exiting Application
+2022-02-16 00:16:23.341 -06:00 [INF] System displayed main menu
+2022-02-16 00:16:23.353 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:16:28.312 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 00:16:28.312 -06:00 [INF] Exiting Application
+2022-02-16 00:44:48.882 -06:00 [INF] System displayed main menu
+2022-02-16 00:44:48.893 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:44:53.071 -06:00 [WRN] A user made an incorrect option
+2022-02-16 00:46:09.235 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 00:46:09.236 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:46:10.866 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 00:46:10.866 -06:00 [INF] Exiting Application
+2022-02-16 00:46:15.058 -06:00 [INF] System displayed main menu
+2022-02-16 00:46:15.070 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:46:18.182 -06:00 [INF] User replimeshed inventory
+2022-02-16 00:47:46.231 -06:00 [INF] System displayed main menu
+2022-02-16 00:47:46.241 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:47:47.945 -06:00 [INF] User replimeshed inventory
+2022-02-16 00:49:05.987 -06:00 [INF] System displayed main menu
+2022-02-16 00:49:05.998 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:49:08.739 -06:00 [INF] User replimeshed inventory
+2022-02-16 00:58:29.081 -06:00 [INF] System displayed main menu
+2022-02-16 00:58:29.092 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:58:30.635 -06:00 [INF] User replimeshed inventory
+2022-02-16 00:58:46.611 -06:00 [WRN] A user made an incorrect option
+2022-02-16 00:59:06.384 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 00:59:06.385 -06:00 [INF] User is viewing main menu of store
+2022-02-16 00:59:07.999 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 00:59:07.999 -06:00 [INF] Exiting Application
+2022-02-16 00:59:34.462 -06:00 [INF] System displayed main menu
+2022-02-16 00:59:34.474 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:00:42.367 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 01:00:42.367 -06:00 [INF] Exiting Application
+2022-02-16 01:00:46.409 -06:00 [INF] System displayed main menu
+2022-02-16 01:00:46.420 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:00:48.892 -06:00 [INF] User replimeshed inventory
+2022-02-16 01:01:17.726 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 01:01:17.726 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:01:18.340 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 01:01:18.340 -06:00 [INF] Exiting Application
+2022-02-16 01:01:20.878 -06:00 [INF] System displayed main menu
+2022-02-16 01:01:20.888 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:01:20.889 -06:00 [WRN] A user made an incorrect option
+2022-02-16 01:01:22.253 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 01:01:22.254 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:01:23.328 -06:00 [INF] User replimeshed inventory
+2022-02-16 01:02:22.731 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 01:02:22.732 -06:00 [INF] User is viewing main menu of store
+2022-02-16 01:02:23.064 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 01:02:23.065 -06:00 [INF] Exiting Application
