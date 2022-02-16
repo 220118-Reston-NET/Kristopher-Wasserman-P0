@@ -53,7 +53,7 @@ namespace LJCUI
                     return "SearchCustomer";
                 case "9":
                     Log.Information("User accessed History Screen");
-                    return "ViewHistory";
+                    return "OrderHistory";
                               
                 default:
                     Log.Warning("A user made an incorrect option");

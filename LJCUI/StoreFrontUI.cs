@@ -26,7 +26,7 @@ namespace LJCUI
                 Console.WriteLine("-------------------");
                 Console.WriteLine(storeid);
             }
-            Console.WriteLine("[1] - Please enter a id to begin order");
+            Console.WriteLine("[1] - Choose Store");
             Console.WriteLine("[0] - Go Back");
 
         }
@@ -54,7 +54,7 @@ namespace LJCUI
                     else{
                         Console.WriteLine("PLease press Enter to contiune.");
                         Console.ReadLine();
-                        return "StoreMenu";
+                        return "StoreFrontUI";
                     }
                    
                    
@@ -65,7 +65,8 @@ namespace LJCUI
                     Log.Warning("User did not enter any valid options");
                     Console.WriteLine("Please select a valid option.");
                     Console.WriteLine("Please press Enter to continue");
-                    return "PlaceOrder";
+                    Console.ReadLine();
+                    return "StoreFrontUI";
             }
         }
     }

@@ -18,7 +18,7 @@ namespace LJCUI
 
         public void Display()
         {
-            Log.Information("Eployee login in to view store inventory page");
+            Log.Information("Employee login in to view store inventory page");
             Console.WriteLine("Which store location do you want to manage?");
              foreach (var storeid in listOfStoreFront)
             {

@@ -17,6 +17,7 @@ namespace LJCUI
             listOfProducts =  _LakeJacksonCycleBL.GetAllProductsByStoreID(StoreFrontUI.selectedStore.storeId);
             listOfInventory = _LakeJacksonCycleBL.GetAllInventoryByStoreId(StoreFrontUI.selectedStore.storeId);
         }
+
         private static List<ItemLines> _cart = new List<ItemLines>();
         
         public void Display()
@@ -27,12 +28,11 @@ namespace LJCUI
             Console.WriteLine("------ Products --------");
              foreach (var _productInfo in listOfProducts)
             {
-
-                Console.WriteLine("-------------------");
                 Console.WriteLine(_productInfo);
+                Console.WriteLine("-------------------");
             }
             Console.WriteLine("------ Products --------");
-            Console.WriteLine("[1] - Please enter a id to begin order");
+            Console.WriteLine("[1] - Start Order");
             Console.WriteLine("[2] - Place Order");
             Console.WriteLine("[0] - Go Back");
         }

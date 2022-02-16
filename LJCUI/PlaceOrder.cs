@@ -42,7 +42,7 @@ namespace LJCUI
             {
                
                 case "1":
-                    Log.Error("Error happen in PlaceOrder.cs. Please let a developer know");
+                    Log.Information("User has accessed the place order function");
                     Console.WriteLine("Please Enter your id");
                     int customerID = Convert.ToInt32(Console.ReadLine());  
                     while(listOfCustomers.All(customer => customer.cId != customerID))

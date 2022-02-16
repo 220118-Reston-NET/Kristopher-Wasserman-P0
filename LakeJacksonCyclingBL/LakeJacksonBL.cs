@@ -100,5 +100,14 @@ namespace LakeJacksonCyclingBL
         {
            _repo.AddProductToStore(storeID,  productID, quantity);
         }
+
+        public List<Orders> GetCustomerHistory(int customerid)
+        {
+           return  _repo.GetCustomerHistory(customerid);
+        }
+        public List<StoreModel> GetStoreHistory(int storeid)
+        {
+           return  _repo.GetStoreHistory(storeid);
+        }
     }
 }
