@@ -4,6 +4,8 @@
     {
         private string name;
         private string _zip;
+        private string _state;
+        private string _email;
         public int cId {get;set;}
         public string Name{
             get{return name;}
@@ -23,13 +25,29 @@
         
         public string Address { get; set;}
         public string City { get; set; }
-        public string State { get; set; }
+
+
+        public string State 
+        {
+            get{  return _state;} 
+            set
+            {
+                if(_state != " ")
+                {
+                    _zip = value;
+                }
+                else
+                {
+                    throw new Exception("A customer needs a state");
+                }
+            }
+        }
         public string Zip 
         {
             get{ return _zip;}
             set
             {
-                if(_zip != null || _zip != "")
+                if(_zip != " ")
                 {
                     _zip = value;
                 }
@@ -39,7 +57,15 @@
                 }
             }
         }
-        public string Email { get; set; }
+        public string Email 
+        {
+            get{ return _email;}
+
+            set
+            {
+                _email = value;
+            }
+        }
         public string PhoneNumber { get; set; }
 
         private List<Orders> _orders;
