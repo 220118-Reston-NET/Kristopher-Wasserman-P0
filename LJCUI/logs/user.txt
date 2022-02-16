@@ -3323,3 +3323,21 @@
 2022-02-16 11:21:26.382 -06:00 [INF] Employee updated customer address
 2022-02-16 11:21:27.708 -06:00 [INF] Displaying add customer to user
 2022-02-16 11:21:27.708 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:29.351 -06:00 [INF] Employee updated customer city
+2022-02-16 11:21:30.163 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:30.164 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:31.279 -06:00 [INF] Employee updated customer State
+2022-02-16 11:21:32.326 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:32.326 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:33.587 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 11:21:34.388 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:34.388 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:36.337 -06:00 [INF] Employee updated customer's phone number
+2022-02-16 11:21:37.251 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:37.252 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:38.724 -06:00 [INF] Employee updated customer's email
+2022-02-16 11:21:39.740 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:39.740 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:40.722 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 11:21:45.387 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:45.387 -06:00 [INF] System displayed Add Customer To user!
