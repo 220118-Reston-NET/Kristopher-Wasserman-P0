@@ -16,7 +16,7 @@ namespace LakeJacksonCyclingDL
         }
         public Customers AddCustomer(Customers p_name)
         {
-            string sqlQuery = @"insert into CustomerInfo values(@cName, @Address, @City, @State, @Zip, @Email, @Phone)";
+            string sqlQuery = @"insert into CustomerInfo values(@cName, @Address, @City, @State, @Zip, @Email, @Phone,@storeID)";
 
             using (SqlConnection con = new SqlConnection(_connectionStrings))
             {
@@ -31,6 +31,7 @@ namespace LakeJacksonCyclingDL
                 command.Parameters.AddWithValue("@Zip", p_name.Zip);
                 command.Parameters.AddWithValue("@Email", p_name.Email);
                 command.Parameters.AddWithValue("@Phone", p_name.PhoneNumber);
+                command.Parameters.AddWithValue("@storeid", 1);
 
                 command.ExecuteNonQuery();
             }

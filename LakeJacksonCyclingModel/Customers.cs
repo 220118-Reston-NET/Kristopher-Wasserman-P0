@@ -27,21 +27,7 @@
         public string City { get; set; }
 
 
-        public string State 
-        {
-            get{  return _state;} 
-            set
-            {
-                if(_state != " ")
-                {
-                    _zip = value;
-                }
-                else
-                {
-                    throw new Exception("A customer needs a state");
-                }
-            }
-        }
+        public string State {get;set;}
         public string Zip 
         {
             get{ return _zip;}

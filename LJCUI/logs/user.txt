@@ -2961,3 +2961,365 @@
 2022-02-16 10:08:40.895 -06:00 [INF] User accessed History Screen
 2022-02-16 10:09:45.157 -06:00 [INF] Displaying MainMenu to user
 2022-02-16 10:09:45.158 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:13:50.748 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 10:13:50.748 -06:00 [INF] Exiting Application
+2022-02-16 10:14:03.455 -06:00 [INF] System displayed main menu
+2022-02-16 10:14:03.465 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:14:28.396 -06:00 [INF] Customer Entered the front door
+2022-02-16 10:14:29.127 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:14:33.932 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:14:33.932 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:14:34.712 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 10:14:34.712 -06:00 [INF] Exiting Application
+2022-02-16 10:15:12.179 -06:00 [INF] System displayed main menu
+2022-02-16 10:15:12.190 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:15:14.246 -06:00 [INF] Customer Entered the front door
+2022-02-16 10:15:14.817 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:15:19.353 -06:00 [INF] Employee has made an store order for inventory
+2022-02-16 10:15:19.476 -06:00 [INF] displayed shop selection app
+2022-02-16 10:15:43.315 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:15:47.075 -06:00 [INF] Employee has made an store order for inventory
+2022-02-16 10:15:47.181 -06:00 [INF] displayed shop selection app
+2022-02-16 10:16:22.835 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:16:25.794 -06:00 [INF] Employee has made an store order for inventory
+2022-02-16 10:16:25.902 -06:00 [INF] displayed shop selection app
+2022-02-16 10:16:29.524 -06:00 [WRN] User did not enter any valid options
+2022-02-16 10:16:29.579 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:16:33.740 -06:00 [INF] Employee has made an store order for inventory
+2022-02-16 10:16:33.843 -06:00 [INF] displayed shop selection app
+2022-02-16 10:16:49.537 -06:00 [INF] Employee login in to view store inventory page
+2022-02-16 10:16:50.882 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:16:50.882 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:16:58.380 -06:00 [INF] Employee added products to the inventory
+2022-02-16 10:16:58.380 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:16:58.381 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:03.030 -06:00 [INF] User added a new name of a new product
+2022-02-16 10:17:10.804 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:17:10.804 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:13.419 -06:00 [INF] User has added a price to a product
+2022-02-16 10:17:16.176 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:17:16.177 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:18.183 -06:00 [INF] User has added a description to a product
+2022-02-16 10:17:32.581 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:17:32.581 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:35.907 -06:00 [INF] User add a quantity of a product
+2022-02-16 10:17:40.060 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:17:40.060 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:41.650 -06:00 [INF] Product has been added
+2022-02-16 10:17:41.713 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 10:17:41.714 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 10:17:44.116 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:17:44.116 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:17:50.933 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 10:17:50.933 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:17:50.933 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:17:56.588 -06:00 [INF] Employee updated customer name
+2022-02-16 10:18:15.866 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:18:15.866 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:18:18.292 -06:00 [INF] Employee updated customer address
+2022-02-16 10:18:28.519 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:18:28.519 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:18:30.189 -06:00 [INF] Employee updated customer city
+2022-02-16 10:18:36.202 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:18:36.203 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:18:40.217 -06:00 [INF] Employee updated customer State
+2022-02-16 10:18:42.812 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:18:42.813 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:18:48.049 -06:00 [INF] Employee updated customer State
+2022-02-16 10:18:53.135 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:18:53.136 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:18:58.874 -06:00 [INF] Employee updated customer State
+2022-02-16 10:19:14.098 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:19:14.099 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:19:18.835 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:19:22.324 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:19:22.325 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:20:07.076 -06:00 [INF] Employee updated customer State
+2022-02-16 10:20:15.742 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:20:15.742 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:21:25.363 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:21:27.299 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:21:27.299 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:21:29.487 -06:00 [INF] Employee updated customer State
+2022-02-16 10:21:31.162 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:21:31.163 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:21:35.906 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 10:21:36.483 -06:00 [WRN] Customer already added
+2022-02-16 10:21:40.698 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:21:40.699 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:21:44.487 -06:00 [INF] Employee updated customer's phone number
+2022-02-16 10:21:47.054 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:21:47.055 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:21:48.879 -06:00 [INF] Employee updated customer's email
+2022-02-16 10:21:56.588 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:21:56.588 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:22:01.506 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:22:04.786 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:22:04.786 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:22:06.687 -06:00 [INF] Employee updated customer State
+2022-02-16 10:22:09.945 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:22:09.945 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:22:15.019 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 10:22:15.080 -06:00 [WRN] Customer already added
+2022-02-16 10:23:25.647 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:23:25.648 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:23:30.072 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 10:23:30.134 -06:00 [WRN] Customer already added
+2022-02-16 10:23:33.764 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:23:33.764 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:23:34.942 -06:00 [INF] User went back to the main menu.
+2022-02-16 10:23:34.942 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:23:34.943 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:23:45.341 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 10:23:45.341 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:23:45.341 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:24:50.003 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:24:56.576 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:24:56.577 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:24:58.256 -06:00 [INF] Employee updated customer State
+2022-02-16 10:25:01.490 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:01.490 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:25:09.113 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:25:12.437 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:12.438 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:25:18.939 -06:00 [INF] User went back to the main menu.
+2022-02-16 10:25:18.939 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:25:18.939 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:25:19.350 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 10:25:19.350 -06:00 [INF] Exiting Application
+2022-02-16 10:25:26.938 -06:00 [INF] System displayed main menu
+2022-02-16 10:25:26.949 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:25:31.251 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 10:25:31.251 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:31.511 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:25:32.847 -06:00 [INF] Employee updated customer name
+2022-02-16 10:25:40.739 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:40.739 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:25:42.706 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:25:46.546 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:46.547 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:25:48.079 -06:00 [INF] Employee updated customer State
+2022-02-16 10:25:50.669 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:25:50.670 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:26:59.734 -06:00 [INF] User went back to the main menu.
+2022-02-16 10:26:59.734 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:26:59.734 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:27:00.442 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 10:27:00.442 -06:00 [INF] Exiting Application
+2022-02-16 10:27:04.060 -06:00 [INF] System displayed main menu
+2022-02-16 10:27:04.070 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:27:06.637 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 10:27:06.637 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:27:06.638 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:27:18.919 -06:00 [INF] Employee updated customer name
+2022-02-16 10:27:41.367 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:27:41.367 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:27:44.062 -06:00 [INF] Employee updated customer address
+2022-02-16 10:27:50.055 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:27:50.055 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:27:53.012 -06:00 [INF] Employee updated customer city
+2022-02-16 10:27:58.023 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:27:58.023 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:00.120 -06:00 [INF] Employee updated customer State
+2022-02-16 10:28:03.510 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:28:03.510 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:05.154 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 10:28:08.567 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:28:08.567 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:10.240 -06:00 [INF] Employee updated customer's phone number
+2022-02-16 10:28:16.836 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:28:16.837 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:20.570 -06:00 [INF] Employee updated customer's email
+2022-02-16 10:28:42.045 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:28:42.045 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:48.239 -06:00 [INF] User went back to the main menu.
+2022-02-16 10:28:48.239 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:28:48.239 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:28:51.660 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 10:28:51.660 -06:00 [INF] Displaying add customer to user
+2022-02-16 10:28:51.660 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 10:28:52.822 -06:00 [INF] User went back to the main menu.
+2022-02-16 10:28:52.822 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:28:52.822 -06:00 [INF] User is viewing main menu of store
+2022-02-16 10:29:03.044 -06:00 [INF] Employee confirmed a Customer by searching them in the database
+2022-02-16 10:29:03.044 -06:00 [INF] Employee accessed search function
+2022-02-16 10:29:03.044 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 10:29:04.001 -06:00 [INF] User used the system to look up customer information
+2022-02-16 10:29:14.639 -06:00 [INF] Employee accessed search function
+2022-02-16 10:29:14.639 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 10:29:15.760 -06:00 [INF] User returned to the Main Menu
+2022-02-16 10:29:15.761 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 10:29:15.761 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:05:11.333 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 11:05:11.333 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:05:11.333 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:05:21.439 -06:00 [INF] Employee updated customer name
+2022-02-16 11:05:35.180 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:05:35.181 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:05:39.347 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 11:05:39.884 -06:00 [WRN] Customer already added
+2022-02-16 11:05:52.160 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:05:52.161 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:06:51.209 -06:00 [INF] User went back to the main menu.
+2022-02-16 11:06:51.209 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:06:51.210 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:06:59.574 -06:00 [INF] Employee confirmed a Customer by searching them in the database
+2022-02-16 11:06:59.574 -06:00 [INF] Employee accessed search function
+2022-02-16 11:06:59.574 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:07:02.608 -06:00 [INF] User used the system to look up customer information
+2022-02-16 11:07:19.846 -06:00 [INF] Employee accessed search function
+2022-02-16 11:07:19.847 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:07:21.636 -06:00 [INF] User returned to the Main Menu
+2022-02-16 11:07:21.636 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:07:21.636 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:07:29.449 -06:00 [INF] Employee added products to the inventory
+2022-02-16 11:07:29.449 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:29.449 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:07:34.253 -06:00 [INF] User added a new name of a new product
+2022-02-16 11:07:36.908 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:36.908 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:07:41.919 -06:00 [INF] User has added a price to a product
+2022-02-16 11:07:45.338 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:45.339 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:07:49.679 -06:00 [INF] User has added a description to a product
+2022-02-16 11:07:52.106 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:52.107 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:07:53.707 -06:00 [INF] User add a quantity of a product
+2022-02-16 11:07:54.938 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:54.939 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:07:56.444 -06:00 [INF] Product has been added
+2022-02-16 11:07:56.529 -06:00 [INF] Displaying Add Product menu to user
+2022-02-16 11:07:56.529 -06:00 [INF] System displayed addProduct menu to user.
+2022-02-16 11:08:03.197 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:08:03.198 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:08:09.083 -06:00 [INF] User is viewing products
+2022-02-16 11:08:09.083 -06:00 [INF] Employee accessed inventory lookup menu
+2022-02-16 11:08:09.168 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:08:20.023 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 11:08:31.974 -06:00 [INF] User has accessed the place order function
+2022-02-16 11:08:39.282 -06:00 [INF] displayed shop selection app
+2022-02-16 11:08:46.451 -06:00 [INF] Products have been shown
+2022-02-16 11:08:52.753 -06:00 [INF] User started an order
+2022-02-16 11:09:06.053 -06:00 [INF] Products have been shown
+2022-02-16 11:09:07.091 -06:00 [INF] User started an order
+2022-02-16 11:09:15.857 -06:00 [INF] Products have been shown
+2022-02-16 11:09:15.910 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 11:09:18.455 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:09:18.455 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:09:25.883 -06:00 [INF] Employee placed an order!MONEY
+2022-02-16 11:09:25.883 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 11:09:28.047 -06:00 [INF] User has accessed the place order function
+2022-02-16 11:09:30.213 -06:00 [INF] displayed shop selection app
+2022-02-16 11:09:42.820 -06:00 [INF] System displayed main menu
+2022-02-16 11:09:42.831 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:09:54.751 -06:00 [INF] Employee placed an order!MONEY
+2022-02-16 11:09:54.751 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 11:09:57.374 -06:00 [INF] User has accessed the place order function
+2022-02-16 11:09:59.329 -06:00 [INF] displayed shop selection app
+2022-02-16 11:10:06.270 -06:00 [INF] System displayed main menu
+2022-02-16 11:10:06.282 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:10:09.183 -06:00 [INF] Employee placed an order!MONEY
+2022-02-16 11:10:09.183 -06:00 [INF] Place Order function has been accessed by the user
+2022-02-16 11:10:10.797 -06:00 [INF] User has accessed the place order function
+2022-02-16 11:10:20.227 -06:00 [INF] displayed shop selection app
+2022-02-16 11:10:23.295 -06:00 [INF] Products have been shown
+2022-02-16 11:10:25.004 -06:00 [INF] User started an order
+2022-02-16 11:10:30.075 -06:00 [INF] Products have been shown
+2022-02-16 11:10:35.508 -06:00 [INF] User submitted an order
+2022-02-16 11:10:40.622 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:10:40.623 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:10:48.082 -06:00 [INF] Employee confirmed a Customer by searching them in the database
+2022-02-16 11:10:48.082 -06:00 [INF] Employee accessed search function
+2022-02-16 11:10:48.083 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:10:50.561 -06:00 [INF] User used the system to look up customer information
+2022-02-16 11:10:54.027 -06:00 [INF] Employee accessed search function
+2022-02-16 11:10:54.028 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:10:55.261 -06:00 [INF] User returned to the Main Menu
+2022-02-16 11:10:55.262 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:10:55.262 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:11:01.102 -06:00 [INF] User accessed History Screen
+2022-02-16 11:12:17.023 -06:00 [INF] System displayed main menu
+2022-02-16 11:12:17.033 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:12:26.109 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 11:12:26.109 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:26.111 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:29.783 -06:00 [INF] Employee updated customer name
+2022-02-16 11:12:32.990 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:32.990 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:34.220 -06:00 [INF] Employee updated customer address
+2022-02-16 11:12:39.728 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:39.729 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:41.206 -06:00 [INF] Employee updated customer city
+2022-02-16 11:12:44.282 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:44.282 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:46.726 -06:00 [INF] Employee updated customer State
+2022-02-16 11:12:47.811 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:47.811 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:49.997 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 11:12:52.121 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:52.122 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:53.490 -06:00 [INF] Employee updated customer's phone number
+2022-02-16 11:12:56.435 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:12:56.435 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:12:57.951 -06:00 [INF] Employee updated customer's email
+2022-02-16 11:13:03.437 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:13:03.438 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:13:05.127 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 11:13:05.779 -06:00 [WRN] Customer already added
+2022-02-16 11:14:44.502 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:14:44.502 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:14:46.604 -06:00 [WRN] A user made an incorrect option
+2022-02-16 11:17:22.831 -06:00 [INF] System displayed main menu
+2022-02-16 11:17:22.841 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:17:27.009 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 11:17:27.009 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:27.010 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:29.280 -06:00 [INF] Employee updated customer name
+2022-02-16 11:17:30.287 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:30.288 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:32.695 -06:00 [INF] Employee updated customer address
+2022-02-16 11:17:33.463 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:33.463 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:35.088 -06:00 [INF] Employee updated customer city
+2022-02-16 11:17:35.875 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:35.875 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:38.234 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 11:17:41.030 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:41.030 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:42.888 -06:00 [INF] Employee updated customer State
+2022-02-16 11:17:45.838 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:45.838 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:48.067 -06:00 [INF] Employee updated customer's phone number
+2022-02-16 11:17:50.741 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:50.741 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:55.454 -06:00 [INF] Employee updated customer's email
+2022-02-16 11:17:57.229 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:17:57.229 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:17:58.572 -06:00 [INF] Employee - CustomerAdded!
+2022-02-16 11:17:59.165 -06:00 [WRN] Customer already added
+2022-02-16 11:21:04.169 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:04.170 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:04.888 -06:00 [INF] User went back to the main menu.
+2022-02-16 11:21:04.888 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:21:04.889 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:21:05.660 -06:00 [INF] User Exited the Add Customer 
+2022-02-16 11:21:05.660 -06:00 [INF] Exiting Application
+2022-02-16 11:21:08.513 -06:00 [INF] System displayed main menu
+2022-02-16 11:21:08.524 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:21:11.435 -06:00 [INF] User is viewing products
+2022-02-16 11:21:11.435 -06:00 [INF] Employee accessed inventory lookup menu
+2022-02-16 11:21:12.010 -06:00 [INF] System Displayed Employee Customer Uplook menu
+2022-02-16 11:21:14.573 -06:00 [INF] Displaying MainMenu to user
+2022-02-16 11:21:14.573 -06:00 [INF] User is viewing main menu of store
+2022-02-16 11:21:15.758 -06:00 [INF] Empolyee accessed AddCustomer Functions
+2022-02-16 11:21:15.758 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:15.759 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:19.221 -06:00 [INF] Employee updated customer name
+2022-02-16 11:21:20.464 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:20.464 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:22.464 -06:00 [INF] Employee updated customer's Zip code
+2022-02-16 11:21:22.971 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:22.972 -06:00 [INF] System displayed Add Customer To user!
+2022-02-16 11:21:26.382 -06:00 [INF] Employee updated customer address
+2022-02-16 11:21:27.708 -06:00 [INF] Displaying add customer to user
+2022-02-16 11:21:27.708 -06:00 [INF] System displayed Add Customer To user!

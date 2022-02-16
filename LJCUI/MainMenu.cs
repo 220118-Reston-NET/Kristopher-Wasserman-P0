@@ -6,7 +6,7 @@ namespace LJCUI
         {
             Log.Information("User is viewing main menu of store");
             Console.WriteLine("+++++++ Lake Jackson Cycling +++++++");
-            Console.WriteLine("++ [1] - Enter Store   ++");
+            Console.WriteLine("++ [1] - Replenish Inventory   ++");
             Console.WriteLine("++ [2] - View Products            ++");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("*******       Employee       *******");
